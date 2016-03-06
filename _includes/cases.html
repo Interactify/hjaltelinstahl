@@ -13,7 +13,7 @@
     <div class="container grid">
         <div class="row">
             
-            {% for hcase in site.cases %}
+            {% for hcase in site.cases reversed %}
                 <div class="threecol">
                     <div>
                         <img src="{{ hcase.thumbnail }}" class="{{ hcase.title | slugify }}" alt="{{ hcase.title }}" data-header="{{ hcase.title }}"
