@@ -31,7 +31,7 @@ collections:
     sort: "date:desc"
     fields:
       - {label: "Virksomhed", name: "virksomhed", widget: "string", tagname: "h1", class: "post-title"}
-      - {label: "Case", name: "title", widget: "string", tagname: "h1", class: "post-title"}
+      - {label: "Case", name: "title", widget: "string", tagname: "h4", class: "post-title"}
       - {label: "Type", name: "type", widget: "string", tagname: "h5", class: "post-title"}
       - {label: "Thumbnail", name: "thumbnail", widget: "image", tagname: "div", class: "media-img optional cms-thumbnail", folder: "img/posts/thumbnails", optional: true}
       - {label: "Beskrivelse", name: "beskrivelse", widget: "markdown", tagname: "div", class: "post-bd", optional: true}
