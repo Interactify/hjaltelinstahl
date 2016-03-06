@@ -55,4 +55,3 @@ collections:
       - {label: "Billede 9 - YouTube/Vimeo link", name: "billede_9_link", widget: "string", tagname: "h4", class: "post-title", optional: true}
       - {label: "Billede 10", name: "billede_10", widget: "image", tagname: "div", class: "media-img optional cms-thumbnail", folder: "img/posts/thumbnails", optional: true}
       - {label: "Billede 10 - YouTube/Vimeo link", name: "billede_10_link", widget: "string", tagname: "h4", class: "post-title", optional: true}
-      - {label: "Virksomhed", name: "virksomhed", widget: "string", tagname: "h1", class: "post-title"}
