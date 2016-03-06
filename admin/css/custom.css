@@ -1,0 +1,127 @@
+@import '/lauritzz/css/1140.css';
+
+body.ember-application .cms-control-pane, body.ember-application .cms-preview-pane {
+    overflow-y: initial;
+}
+
+textarea {
+    /*overflow-x: hidden;*/
+}
+
+body.ember-application .cms-navbar-bottom {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+.cms-control-pane {
+    overflow-y: visible !important;
+}
+
+body.ember-application .cms-entry-editor {
+    margin-bottom: 60px;
+}
+
+input[type="checkbox"] {
+    height: 14px !important;
+}
+
+.cms-logo svg {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hidden {
+    display: none;
+}
+
+body.ember-application .cms-preview:has(.hidden) {
+    position: relative;
+    padding: 20px 20px 20px 40px;
+}
+
+.cms-logo a:after {
+    content: "";
+    font-size: 20px;
+    color: #e0e6e7;
+    background-image: url(../img/hs.png);
+    width: 180px;
+    height: 32px;
+    display: block;
+    background-repeat: no-repeat;
+}
+
+body.ember-application .cms-logo {
+    width: 180px;
+}
+
+body.ember-application .cms-navbar-top {
+    background: #ffffff;
+}
+
+body.ember-application .cms-breadcrumb {
+    color: #333333;
+    text-decoration: none;
+    font-family: 'BrandonText-Black';
+}
+
+body.ember-application .cms-nav-link {
+    color: #333333;
+    font-family: 'BrandonText-Black';
+}
+
+body.ember-application .cms-aside-link.active {
+    color: #333333;
+    font-family: 'BrandonText-Black';
+}
+
+body.ember-application .cms-aside-new-link, body.ember-application .cms-new-link {
+    color: #333333;
+    font-family: 'BrandonText-Black';
+    margin-top: 4px;
+}
+
+body.ember-application .cms-aside-link.active .cms-icon {
+    visibility: visible;
+    color: #F04E29;
+}
+
+body.ember-application .cms-aside, body.ember-application .cms-control {
+    background: #ffffff;
+    color: #7c8382;
+}
+
+body.ember-application .cms-navbar-top {
+    border-bottom: 1px solid #e8eae8;
+}
+
+body.ember-application .cms-aside, body.ember-application .cms-control {
+    border-right: 1px solid #e8eae8;
+}
+
+body.ember-application .cms-list-header, body.ember-application .cms-message-title {
+    color: #333333;
+    border-bottom: 1px solid #F04E29;
+}
+
+body.ember-application .cms-control input:not([type=checkbox]):not([type=radio]), body.ember-application .cms-control textarea {
+    border: 1px solid #e8eae8;
+    padding: 10px;
+    width: 96%;
+}
+
+body.ember-application .cms-list-entry-link {
+    color: #333333;
+    font-family: 'BrandonText-Regular', Verdana, Geneva, sans-serif;
+}
+
+body.ember-application .cms-content, body.ember-application .cms-sidebar-content {
+     height: auto; 
+}
+
+body.ember-application .cms-upload-dropzone {
+    padding: 20px;
+}

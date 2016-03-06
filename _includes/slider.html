@@ -1,0 +1,108 @@
+<section>
+    <section>
+        <div id="Hello" style="padding-top:82px;">
+            <div>
+                <div id="video-gallery" class="royalSlider videoGallery rsDefault rsMinW">
+                    {% for slide in site.carrousel %}
+                    <div class="rsContent slide6">
+                        <img class="rsImg" src="{{ slide.billede_1 }}" alt="hmm">
+                        {% if slide.billede_2 != null %}
+                        <div class="bContainer">
+                            <span class="rsABlock txtCent" data-move-effect="bottom" data-delay="500" data-move-offset="700" data-fade-effect="none">
+                                <a href="{{ slide.slidelink }}" target="_blank" rel="nofollow"><img src="{{ slide.billede_2 }}" alt="Hjaltelin Stahl"></a>
+                            </span>
+                        </div>
+                        {% endif %}
+                    </div>
+                    {% endfor %}
+                    <!--
+                    <div class="rsContent slide6">
+                        <img class="rsImg" src="images/banners/imageanalysenhello2016.jpg" alt="hmm">
+                        <div class="bContainer">
+                            <span class="rsABlock txtCent" data-move-effect="bottom" data-delay="500" data-move-offset="700" data-fade-effect="none">
+                                <a href="http://www.bureaubiz.dk/Nyheder/Artikler/2016/Uge-2/704-annoncoerer-kaarer-ny-imagekonge-blandt-reklamebureauer" target="_blank" rel="nofollow"><img src="images/banners/imageanalysenhello2016_text.png" alt="Hjaltelin Stahl"></a>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="rsContent slide5">
+                        <a href="http://www.bureaubiz.dk/Nyheder/Artikler/2015/Uge-47/Her-er-aarets-AEA-vindere-RobertBoisens-gyldne-aften" style="width:100%;height:900px; position:absolute;z-index:999;"
+                        TARGET="_blank">
+                            <img class="rsImg" src="images/banners/Top_Nyheder_1650x800_HS_Awards3.jpg" alt="" />
+                        </a>
+                    </div>
+
+
+                    <div class="rsContent slide6">
+                        <img class="rsImg" src="images/banners/banner_ikea_bg.jpg" alt="hmm">
+                        <div class="bContainer">
+                            <span class="rsABlock txtCent" data-move-effect="bottom" data-delay="500" data-move-offset="700" data-fade-effect="none">
+                                <a href="http://www.bureaubiz.dk/Nyheder/Artikler/2015/Uge-41/Saa-vendte-ogsaa-Ikea-tilbage-til-Hjaltelin" target="_blank" rel="nofollow"><img src="images/banners/banner_ikea_txt.png" alt="IKEA"></a>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="rsContent slide6">
+                        <img class="rsImg" src="images/banners/banner_scandic_bg.jpg" alt="hmm">
+                        <div class="bContainer">
+                            <span class="rsABlock txtCent" data-move-effect="bottom" data-delay="500" data-move-offset="700" data-fade-effect="none">
+                                <a href="http://markedsforing.dk/artikler/bureauer/hotelk-de-til-hjaltelin-stahl" target="_blank" rel="nofollow"><img src="images/banners/banner_scandic_txt.png" alt="Scandic"></a>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="rsContent slide6">
+                        <img class="rsImg" src="images/banners/banner_fuldafliv_bg.jpg" alt="hmm">
+                        <div class="bContainer">
+                            <span class="rsABlock txtCent" data-move-effect="bottom" data-delay="500" data-move-offset="700" data-fade-effect="none">
+                                <a href="http://markedsforing.dk/artikler/kampagner/kr-ftkampagne-fuld-af-viralt-liv" target="_blank" rel="nofollow"><img src="images/banners/banner_fuldafliv_txt.png" alt="Fuld af liv"></a>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="rsContent slide6">
+                        <img class="rsImg" src="images/banners/banner_true_bg.jpg" alt="hmm">
+                        <div class="bContainer">
+                            <span class="rsABlock txtCent" data-move-effect="bottom" data-delay="500" data-move-offset="700" data-fade-effect="none">
+                                <a href="http://www.trueaward.dk/index.php?option=com_content&task=view&id=52&Itemid=66" target="_blank" rel="nofollow"><img src="images/banners/banner_true_txt.png" alt="True award"></a>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="rsContent slide6">
+                        <img class="rsImg" src="images/banners/Top_Nyheder_1650x800_Teliatv.jpg" alt="hmm">
+                        <div class="bContainer">
+                            <span class="rsABlock txtCent" data-move-effect="bottom" data-delay="500" data-move-offset="700" data-fade-effect="none">
+                                <a href="http://youtu.be/8CwP_iPYT6Q" target="_blank" rel="nofollow"><img src="images/banners/teliatv_hello2015_text.png" alt="Hjaltelin Stahl"></a>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="rsContent slide5">
+                        <a href="https://www.youtube.com/watch?v=VgCUMdRmLHQ" style="width:100%;height:900px; position:absolute;z-index:999;" TARGET="_blank">
+                            <img class="rsImg" src="images/banners/Top_Nyheder_1650x800_KB_joflerevier_yb2.jpg" alt="" />
+                        </a>
+                    </div>
+                    <div class="rsContent slide5">
+                        <a href="http://www.bureaubiz.dk/Nyheder/Artikler/2013/Uge-44/Hjaltelin-Stahl-vandt-over-RobertBoisen" style="width:100%;height:900px; position:absolute;z-index:999;"
+                        TARGET="_blank">
+                            <img class="rsImg" src="images/banners/Top_Nyheder_1650x800_KK.jpg" alt="" />
+                        </a>
+                    </div>
+                    <div class="rsContent slide5">
+                        <a href="#Awards" style="width:100%;height:900px; position:absolute;z-index:999;" TARGET="">
+                            <img class="rsImg" src="images/banners/Top_Nyheder_1650x1000_AWARD-hero.jpg" alt="" />
+                        </a>
+                    </div>
+                    <div class="rsContent slide5">
+                        <a href="http://youtu.be/StvWPGZ8LMg" style="width:100%;height:900px; position:absolute;z-index:999;" TARGET="_blank">
+                            <img class="rsImg" src="images/banners/Top_Nyheder_1650x800_ALS_IceBucketChallenge.jpg" alt="" />
+                        </a>
+                    </div>
+                    -->
+
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+

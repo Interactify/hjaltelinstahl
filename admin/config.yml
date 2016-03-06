@@ -1,0 +1,58 @@
+development:
+  backend:
+    name: netlify-api
+    url: http://localhost:8080
+
+production:
+  backend:
+    name: github-api
+    repo: fishadores/cap-leasing # Path to your Github repository
+    branch: master # Branch to update (master by default)
+
+media_folder: "images/uploads" # Folder where user uploaded files should go
+
+collections:
+  - name: "Carrousel"
+    label: "Carrousel"
+    folder: "_carrousel"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Overskrift", name: "title", widget: "string", tagname: "h1", class: "post-title"}
+      - {label: "Slider billede", name: "billede_1", widget: "image", tagname: "div", class: "media-img optional cms-thumbnail", folder: "img/posts/thumbnails", optional: true}
+      - {label: "Popup billede", name: "billede_2", widget: "image", tagname: "div", class: "media-img optional cms-thumbnail", folder: "img/posts/thumbnails", optional: true}
+      - {label: "Link", name: "slidelink", widget: "string", tagname: "p", class: "small muted hidden", optional: true}
+    meta:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "default"}
+  - name: "Cases"
+    label: "Cases"
+    folder: "_cases"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Virksomhed", name: "virksomhed", widget: "string", tagname: "h1", class: "post-title"}
+      - {label: "Case", name: "title", widget: "string", tagname: "h1", class: "post-title"}
+      - {label: "Type", name: "type", widget: "string", tagname: "h5", class: "post-title"}
+      - {label: "Thumbnail", name: "thumbnail", widget: "image", tagname: "div", class: "media-img optional cms-thumbnail", folder: "img/posts/thumbnails", optional: true}
+      - {label: "Beskrivelse", name: "beskrivelse", widget: "markdown", tagname: "div", class: "post-bd", optional: true}
+      - {label: "Billede 1", name: "billede_1", widget: "image", tagname: "div", class: "media-img optional cms-thumbnail", folder: "img/posts/thumbnails", optional: true}
+      - {label: "Billede 1 - YouTube/Vimeo link", name: "billede_1_link", widget: "string", tagname: "h4", class: "post-title", optional: true}
+      - {label: "Billede 2", name: "billede_2", widget: "image", tagname: "div", class: "media-img optional cms-thumbnail", folder: "img/posts/thumbnails", optional: true}
+      - {label: "Billede 2 - YouTube/Vimeo link", name: "billede_2_link", widget: "string", tagname: "h4", class: "post-title", optional: true}
+      - {label: "Billede 3", name: "billede_3", widget: "image", tagname: "div", class: "media-img optional cms-thumbnail", folder: "img/posts/thumbnails", optional: true}
+      - {label: "Billede 3 - YouTube/Vimeo link", name: "billede_3_link", widget: "string", tagname: "h4", class: "post-title", optional: true}
+      - {label: "Billede 4", name: "billede_4", widget: "image", tagname: "div", class: "media-img optional cms-thumbnail", folder: "img/posts/thumbnails", optional: true}
+      - {label: "Billede 4 - YouTube/Vimeo link", name: "billede_4_link", widget: "string", tagname: "h4", class: "post-title", optional: true}
+      - {label: "Billede 5", name: "billede_5", widget: "image", tagname: "div", class: "media-img optional cms-thumbnail", folder: "img/posts/thumbnails", optional: true}
+      - {label: "Billede 5 - YouTube/Vimeo link", name: "billede_5_link", widget: "string", tagname: "h4", class: "post-title", optional: true}
+      - {label: "Billede 6", name: "billede_6", widget: "image", tagname: "div", class: "media-img optional cms-thumbnail", folder: "img/posts/thumbnails", optional: true}
+      - {label: "Billede 6 - YouTube/Vimeo link", name: "billede_6_link", widget: "string", tagname: "h4", class: "post-title", optional: true}
+      - {label: "Billede 7", name: "billede_7", widget: "image", tagname: "div", class: "media-img optional cms-thumbnail", folder: "img/posts/thumbnails", optional: true}
+      - {label: "Billede 7 - YouTube/Vimeo link", name: "billede_7_link", widget: "string", tagname: "h4", class: "post-title", optional: true}
+      - {label: "Billede 8", name: "billede_8", widget: "image", tagname: "div", class: "media-img optional cms-thumbnail", folder: "img/posts/thumbnails", optional: true}
+      - {label: "Billede 8 - YouTube/Vimeo link", name: "billede_8_link", widget: "string", tagname: "h4", class: "post-title", optional: true}
+      - {label: "Billede 9", name: "billede_9", widget: "image", tagname: "div", class: "media-img optional cms-thumbnail", folder: "img/posts/thumbnails", optional: true}
+      - {label: "Billede 9 - YouTube/Vimeo link", name: "billede_9_link", widget: "string", tagname: "h4", class: "post-title", optional: true}
+      - {label: "Billede 10", name: "billede_10", widget: "image", tagname: "div", class: "media-img optional cms-thumbnail", folder: "img/posts/thumbnails", optional: true}
+      - {label: "Billede 10 - YouTube/Vimeo link", name: "billede_10_link", widget: "string", tagname: "h4", class: "post-title", optional: true}
+      - {label: "Virksomhed", name: "virksomhed", widget: "string", tagname: "h1", class: "post-title"}

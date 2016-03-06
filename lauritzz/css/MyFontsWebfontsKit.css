@@ -1,0 +1,92 @@
+/* @license
+ * MyFonts Webfont Build ID 2483059, 2013-02-18T08:24:24-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Brandon Text Bold Italic by HVD Fonts
+ * URL: http://www.myfonts.com/fonts/hvdfonts/brandon-text/bold-italic/
+ * 
+ * Webfont: Brandon Text Bold by HVD Fonts
+ * URL: http://www.myfonts.com/fonts/hvdfonts/brandon-text/bold/
+ * 
+ * Webfont: Brandon Text Black Italic by HVD Fonts
+ * URL: http://www.myfonts.com/fonts/hvdfonts/brandon-text/black-italic/
+ * 
+ * Webfont: Brandon Text Black by HVD Fonts
+ * URL: http://www.myfonts.com/fonts/hvdfonts/brandon-text/black/
+ * 
+ * Webfont: Brandon Text Light Italic by HVD Fonts
+ * URL: http://www.myfonts.com/fonts/hvdfonts/brandon-text/light-italic/
+ * 
+ * Webfont: Brandon Text Light by HVD Fonts
+ * URL: http://www.myfonts.com/fonts/hvdfonts/brandon-text/light/
+ * 
+ * Webfont: Brandon Text Italic by HVD Fonts
+ * URL: http://www.myfonts.com/fonts/hvdfonts/brandon-text/italic/
+ * 
+ * Webfont: Brandon Text Regular by HVD Fonts
+ * URL: http://www.myfonts.com/fonts/hvdfonts/brandon-text/regular/
+ * 
+ * Webfont: Brandon Text Medium by HVD Fonts
+ * URL: http://www.myfonts.com/fonts/hvdfonts/brandon-text/medium/
+ * 
+ * Webfont: Brandon Text Thin Italic by HVD Fonts
+ * URL: http://www.myfonts.com/fonts/hvdfonts/brandon-text/thin-italic/
+ * 
+ * Webfont: Brandon Text Thin by HVD Fonts
+ * URL: http://www.myfonts.com/fonts/hvdfonts/brandon-text/thin/
+ * 
+ * Webfont: Brandon Text Medium Italic by HVD Fonts
+ * URL: http://www.myfonts.com/fonts/hvdfonts/brandon-text/medium-italic/
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2483059
+ * Webfonts copyright: Copyright (c) 2012 by Hannes von Doehren. All rights reserved.
+ * 
+ * © 2013 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/25e373");
+
+  
+@font-face {font-family: 'BrandonText-BoldItalic';src: url('webfonts/25E373_0_0.eot');src: url('webfonts/25E373_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/25E373_0_0.woff') format('woff'),url('webfonts/25E373_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'BrandonText-Bold';src: url('webfonts/25E373_1_0.eot');src: url('webfonts/25E373_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/25E373_1_0.woff') format('woff'),url('webfonts/25E373_1_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'BrandonText-BlackItalic';src: url('webfonts/25E373_2_0.eot');src: url('webfonts/25E373_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/25E373_2_0.woff') format('woff'),url('webfonts/25E373_2_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'BrandonText-Black';src: url('webfonts/25E373_3_0.eot');src: url('webfonts/25E373_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/25E373_3_0.woff') format('woff'),url('webfonts/25E373_3_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'BrandonText-LightItalic';src: url('webfonts/25E373_4_0.eot');src: url('webfonts/25E373_4_0.eot?#iefix') format('embedded-opentype'),url('webfonts/25E373_4_0.woff') format('woff'),url('webfonts/25E373_4_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'BrandonText-Light';src: url('webfonts/25E373_5_0.eot');src: url('webfonts/25E373_5_0.eot?#iefix') format('embedded-opentype'),url('webfonts/25E373_5_0.woff') format('woff'),url('webfonts/25E373_5_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'BrandonText-RegularItalic';src: url('webfonts/25E373_6_0.eot');src: url('webfonts/25E373_6_0.eot?#iefix') format('embedded-opentype'),url('webfonts/25E373_6_0.woff') format('woff'),url('webfonts/25E373_6_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'BrandonText-Regular';src: url('webfonts/25E373_7_0.eot');src: url('webfonts/25E373_7_0.eot?#iefix') format('embedded-opentype'),url('webfonts/25E373_7_0.woff') format('woff'),url('webfonts/25E373_7_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'BrandonText-Medium';src: url('webfonts/25E373_8_0.eot');src: url('webfonts/25E373_8_0.eot?#iefix') format('embedded-opentype'),url('webfonts/25E373_8_0.woff') format('woff'),url('webfonts/25E373_8_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'BrandonText-ThinItalic';src: url('webfonts/25E373_9_0.eot');src: url('webfonts/25E373_9_0.eot?#iefix') format('embedded-opentype'),url('webfonts/25E373_9_0.woff') format('woff'),url('webfonts/25E373_9_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'BrandonText-Thin';src: url('webfonts/25E373_A_0.eot');src: url('webfonts/25E373_A_0.eot?#iefix') format('embedded-opentype'),url('webfonts/25E373_A_0.woff') format('woff'),url('webfonts/25E373_A_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'BrandonText-MediumItalic';src: url('webfonts/25E373_B_0.eot');src: url('webfonts/25E373_B_0.eot?#iefix') format('embedded-opentype'),url('webfonts/25E373_B_0.woff') format('woff'),url('webfonts/25E373_B_0.ttf') format('truetype');}
+ 

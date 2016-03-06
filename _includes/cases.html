@@ -1,0 +1,169 @@
+<section id="section-cases">
+    <div class="container headerline" id="Cases">
+        <div class="row">
+            <div class="twelvecol">
+                <h1>
+                    <span class="stregleft">&nbsp;</span>
+                    <span class="stregcenter">Cases</span>
+                    <span class="stregright">&nbsp;</span>
+                </h1>
+            </div>
+        </div>
+    </div>
+    <div class="container grid">
+        <div class="row">
+            
+            {% for hcase in site.cases %}
+                <div class="threecol">
+                    <div>
+                        <img src="{{ hcase.thumbnail }}" class="{{ hcase.title | slugify }}" alt="{{ hcase.title }}" data-header="{{ hcase.title }}"
+                        data-area="{{ hcase.type }}" data-text="{{ hcase.beskrivelse }}">
+                        <h4>
+                            <span class="stregleft">&nbsp;</span>
+                            <span class="stregcenter">{{ hcase.virksomhed }}</span>
+                            <span class="stregright">&nbsp;</span>
+                        </h4>
+                        <p>{{ hcase.type }}</p>
+                    </div>
+                </div>
+                {% cycle '', '', '', '
+                    </div></div><div class="container dropdownslider" style="display:none;">
+                        <div class="hey">
+                            <img src="images/close.png" class="close" alt="close">
+                            <div class="container">
+                                <div class="headerslider">
+                                    <h2 class="jqheader">           
+                                </h2>
+                                    <h5>
+                                <span class="stregleft">&nbsp;</span>
+                                <span class="stregcenter jqarea"></span>
+                                <span class="stregright">&nbsp;</span>
+                                </h5>
+                                </div>
+                            </div>
+                            <div class="slidertopcontent jqtext"></div>
+                            <div class="royalSlider rsDefault slider"></div>
+                        </div>
+                    </div><div class="container grid"><div class="row">'
+                %}
+            {% endfor %}
+        
+        
+           
+            
+        </div>
+    </div>
+    <div class="container dropdownslider" style="display:none;">
+        <div class="hey">
+            <img src="images/close.png" class="close" alt="close">
+            <div class="container">
+                <div class="headerslider">
+                    <h2 class="jqheader">           
+                </h2>
+                    <h5>
+                <span class="stregleft">&nbsp;</span>
+                <span class="stregcenter jqarea"></span>
+                <span class="stregright">&nbsp;</span>
+                </h5>
+                </div>
+            </div>
+            <div class="slidertopcontent jqtext"></div>
+            <div class="royalSlider rsDefault slider"></div>
+        </div>
+    </div>
+    
+</section>
+
+<script>
+    var messages = {
+        {% for hcase in site.cases %}
+        '{{ hcase.title | slugify }}': '{% if hcase.billede_1 != null %}<a class="rsImg" data-rsBigImg="{{ hcase.billede_1 }}" href="{{ hcase.billede_1 }}" data-rsVideo="{{ hcase.billede_1_link }}" ></a>{% endif %}{% if hcase.billede_2 != null %}<a class="rsImg" data-rsBigImg="{{ hcase.billede_2 }}" href="{{ hcase.billede_2 }}" data-rsVideo="{{ hcase.billede_2_link }}" ></a>{% endif %}{% if hcase.billede_3 != null %}<a class="rsImg" data-rsBigImg="{{ hcase.billede_3 }}" href="{{ hcase.billede_3 }}" data-rsVideo="{{ hcase.billede_3_link }}" ></a>{% endif %}{% if hcase.billede_4 != null %}<a class="rsImg" data-rsBigImg="{{ hcase.billede_4 }}" href="{{ hcase.billede_4 }}" data-rsVideo="{{ hcase.billede_4_link }}" ></a>{% endif %}{% if hcase.billede_5 != null %}<a class="rsImg" data-rsBigImg="{{ hcase.billede_5 }}" href="{{ hcase.billede_5 }}" data-rsVideo="{{ hcase.billede_5_link }}" ></a>{% endif %}{% if hcase.billede_6 != null %}<a class="rsImg" data-rsBigImg="{{ hcase.billede_6 }}" href="{{ hcase.billede_6 }}" data-rsVideo="{{ hcase.billede_6_link }}" ></a>{% endif %}{% if hcase.billede_7 != null %}<a class="rsImg" data-rsBigImg="{{ hcase.billede_7 }}" href="{{ hcase.billede_7 }}" data-rsVideo="{{ hcase.billede_7_link }}" ></a>{% endif %}{% if hcase.billede_8 != null %}<a class="rsImg" data-rsBigImg="{{ hcase.billede_8 }}" href="{{ hcase.billede_8 }}" data-rsVideo="{{ hcase.billede_8_link }}" ></a>{% endif %}{% if hcase.billede_9 != null %}<a class="rsImg" data-rsBigImg="{{ hcase.billede_9 }}" href="{{ hcase.billede_9 }}" data-rsVideo="{{ hcase.billede_9_link }}" ></a>{% endif %}{% if hcase.billede_10 != null %}<a class="rsImg" data-rsBigImg="{{ hcase.billede_10 }}" href="{{ hcase.billede_10 }}" data-rsVideo="{{ hcase.billede_10_link }}" ></a>{% endif %}',
+        {% endfor %}
+    }
+    jQuery('.grid img').click(function(){
+	jQuery(".jqheader").text($(this).data('header'));
+	jQuery(".jqarea").text($(this).data('area'));
+	jQuery(".jqtext").text($(this).data("text"));
+	var myClass = $(this).attr("class");
+	var scrollelement = $(this).closest('.container').next('.dropdownslider');
+	var dropdown = $(this).closest('.container').next('.dropdownslider');
+	var $viewport = $('html, body');
+	
+	var sliderindhold = messages[myClass];
+	
+	jQuery('.close').click(function(){
+		$('.dropdownslider').slideUp(300);
+		jQuery('.slider').royalSlider('destroy').empty();
+		});
+	if($(dropdown).is(':hidden')) {
+		$('.dropdownslider').removeClass('active')
+		if(!$(dropdown).hasClass('active')) {				
+	 		$('.dropdownslider').slideUp(300)
+				}
+			$(dropdown).slideDown(300),
+			$(dropdown).addClass('active')
+			$(dropdown).queue( function () {
+			 $viewport.animate({
+				 scrollTop: 
+				 $(scrollelement).offset().top -82
+			 }, timeripad);
+		 $viewport.bind("scroll mousedown DOMMouseScroll mousewheel keyup", function(e){
+		if ( e.which > 0 || e.type === "mousedown" || e.type === "mousewheel"){
+			 $viewport.stop().unbind('scroll mousedown DOMMouseScroll mousewheel keyup'); 
+		}
+		});    
+		 $( this ).dequeue(); 
+		});
+	}else{
+		$('.dropdownslider').removeClass('active')
+			$(dropdown).slideDown(300),
+			$(dropdown).addClass('active')
+			$(dropdown).queue( function () {
+			 $viewport.animate({
+				 scrollTop: 
+				 $(scrollelement).offset().top -82
+			 }, timeripad);
+		 $viewport.bind("scroll mousedown DOMMouseScroll mousewheel keyup", function(e){
+		if ( e.which > 0 || e.type === "mousedown" || e.type === "mousewheel"){
+			 $viewport.stop().unbind('scroll mousedown DOMMouseScroll mousewheel keyup'); 
+		}
+		});    
+		 $( this ).dequeue(); 
+		});
+	}
+		var slider = $('.active .slider').royalSlider('destroy').empty().royalSlider({
+        slides: sliderindhold,
+				slidesSpacing: 0,
+				centerArea: 0.5,
+				center: true,
+				breakpoint: 800,
+				controlNavigation: 'bullets',
+				autoScaleSlider: true, 
+				autoScaleSliderWidth: 1200,     
+				autoScaleSliderHeight: 400,
+				autoHeight: true,
+				loopRewind: true,
+				navigateByClick: true,
+				imageAlignCenter:true,
+				numImagesToPreload:3,
+				arrowsNav:true,
+				arrowsNavAutoHide: true,
+				arrowsNavHideOnTouch: true,
+				keyboardNavEnabled: true,
+				fadeinLoadedSlide: true,
+				globalCaption: true,
+				allowCSS3:false,
+				globalCaptionInside: false
+		    }).data('royalSlider');
+			slider.ev.on('rsBeforeDestroy', function() {
+			    $('.dropdownslider.active .jqtext').show( 300 );
+			});
+			slider.ev.on('rsAfterSlideChange', function(event, type, userAction ) {
+				if ($('.active .rsContainer').css('left') == '0px'){
+				   $('.dropdownslider.active .jqtext').show( 300 );
+				}else{
+					$('.dropdownslider.active .jqtext').hide( 300 );
+				};
+			});
+	});
+</script>

@@ -1,0 +1,248 @@
+<?php
+if (isset($this->_script['text/javascript']))
+{
+    $this->_script['text/javascript'] = preg_replace('%window\.addEvent\(\'load\',\s*function\(\)\s*{\s*new\s*JCaption\(\'img.caption\'\);\s*}\);\s*%', '', $this->_script['text/javascript']);
+    if (empty($this->_script['text/javascript']))
+        unset($this->_script['text/javascript']);
+}
+unset($this->_scripts[JURI::root(true).'/media/system/js/core.js']);
+unset($this->_scripts[JURI::root(true).'/media/system/js/caption.js']);
+unset($this->_scripts[JURI::root(true).'/media/system/js/mootools-core.js']);
+unset($this->_scripts[JURI::root(true).'/media/system/js/mootools-more.js']);
+unset($this->_scripts[JURI::root(true).'/media/jui/js/jquery.min.js']);
+unset($this->_scripts[JURI::root(true).'/media/jui/js/jquery-noconflict.js']);
+?>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta content="width=device-width,minimum-scale=1.0,maximum-scale=1.0" name="viewport" />
+<jdoc:include type="head" />
+<!-- My normal styles -->
+<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/1140.css" type="text/css" media="screen" />
+<link href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/royalslider.css" rel="stylesheet">
+<link href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/rs-default.css" rel="stylesheet">
+<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/styles.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/jquery.mCustomScrollbar.css" type="text/css" media="screen" />
+<!--[if lt IE 9]>
+  <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/ie.css" type="text/css" media="screen" />
+<![endif]-->
+<script type="text/javascript" src="http://56255.collect.igodigital.com/collect.js"></script>
+<script type="text/javascript">
+  _etmc.push(["setOrgId", "56255"]);
+  _etmc.push(["trackPageView"]);
+</script>
+</head>
+<body>
+<?php if($this->countModules('Menu')) : ?>
+<nav>
+  <jdoc:include type="modules" name="Menu" style="none" headerLevel="3" />
+</nav>
+<?php endif; ?>
+<?php if($this->countModules('Hello')) : ?>
+<section>
+  <jdoc:include type="modules" name="Hello" style="none" headerLevel="3" />
+</section>
+<?php endif; ?>
+<?php if($this->countModules('Cases')) : ?>
+<section>
+  <jdoc:include type="modules" name="Cases" style="none" headerLevel="3" />
+</section>
+<?php endif; ?>
+<?php if($this->countModules('Client')) : ?>
+<section>
+  <div class="clientwrapper">
+            <jdoc:include type="modules" name="Client" style="none" headerLevel="3" />
+    </div>
+    </div>
+</section>
+<?php endif; ?>
+<?php if($this->countModules('Content')) : ?>
+            <jdoc:include type="modules" name="Content" style="none" headerLevel="3" />
+<?php endif; ?>
+<?php if($this->countModules('Awards')) : ?>
+<section>
+            <jdoc:include type="modules" name="Awards" style="none" headerLevel="3" />
+</section>
+<?php endif; ?>
+<?php if($this->countModules('About')) : ?>
+<section>
+            <jdoc:include type="modules" name="About" style="none" headerLevel="3" />
+</section>
+<?php endif; ?>
+<div class="clientwrapper instagram">
+    <div class="container headerline">
+        <div class="row">
+            <div class="twelvecol">
+            <h1>
+                <span class="stregleft">&nbsp;</span>
+                <span class="stregcenter">Pictures</span> 
+                <span class="stregright">&nbsp;</span>
+            </h1>
+            <p style="text-align:center;color:#fff;"><a href="http://instagram.com/hjaltelinstahl" target="_blank">Follow us on instagram</a> Hjaltelinstahl</p>
+            </div>
+        </div>
+    </div>
+    <div class="instacontainer instagram">
+        <div class="wrapper">
+            <div id="instacontainer">
+                <div id="innercontainer">
+                    <div id="instafeed"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<?php if($this->countModules('Newsletter')) : ?>
+<section>
+            <jdoc:include type="modules" name="Newsletter" style="none" headerLevel="3" />
+</section>
+<?php endif; ?>
+<?php if($this->countModules('Presse')) : ?>
+<section>
+  <div class="pressewrapper">
+    <jdoc:include type="modules" name="Presse" style="XHTML" headerLevel="3" />
+        <iframe frameborder="0" scrolling="no" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/subscribe.php" allowTransparency="true"></iframe>
+    </div>
+</section>
+<?php endif; ?>
+<?php if($this->countModules('Contact')) : ?>
+            <jdoc:include type="modules" name="Contact" style="none" headerLevel="3" />
+<?php endif; ?>
+
+
+<!--instagram plugin
+
+instagram plugin
+
+
+<iframe width="100%" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.dk/maps?f=q&amp;source=s_q&amp;hl=da&amp;geocode=&amp;q=hjaltelin+stahl&amp;aq=&amp;sll=55.67854,12.569218&amp;sspn=0.010816,0.025771&amp;ie=UTF8&amp;hq=hjaltelin+stahl&amp;hnear=&amp;t=m&amp;cid=14462298682183715274&amp;ll=55.685811,12.572823&amp;spn=0.021773,0.097761&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
+
+<div id="bottomlogo">
+    <a href="#Hello">Hjaltelin Stahl</a>
+</div>
+-->
+<!--
+<section>
+    <div class="container jobheader">
+        <div class="row">
+            <div class="twelvecol" id="jobs" style="padding-top:70px;">
+              <h1>
+                    <span class="stregleft">&nbsp;</span>
+                    <span class="stregcenter">Hjaltelin Stahl søger</span>
+                    <span class="stregright">&nbsp;</span>
+                </h1>
+            </div>
+        </div>
+        <div class="row">
+          <div class="threecol" align="left">
+
+  </div>
+            <div class="sixcol" align="left">
+            <h3 align="left">DIGITAL CREATIVE LEAD til Hjaltelin Stahl</h3>
+<p align="left">             Som Digital Creative Lead får du ansvaret for koncept- og idéudviklingen af digitale løsninger for en række af vores allermest spændende kunder.
+</p>
+<p align="left">Som ægte digital kreativ ved du at den ekstraordinære gode løsning ofte ligger i spændingsfeltet mellem kreativitet og brugen af teknologi og/eller nye medier på nye måder. Du har derfor helt sikkert også arbejder i din portfolio, der skiller sig ud over det sædvanlige – og er sikkert også blevet belønnet med en award eller to fra CCA, DIA eller tilsvarende. 
+</p>
+<p align="left">Fagligt forestiller vi os at du er en digital art director, som sætter en dyd ud i også at være med i eksekveringen af dine koncepter og ideer. Du er selvsikker og overbevisende i præsentationer internt og eksternt, men er absolut ingen primadonna, og nyder mod- og medspil fra dygtige kollegaer. Og så brænder du selvfølgelig for alt digitalt, og følger med i hvad der sker indenfor dit felt.
+</p>
+<p align="left">Hos Hjaltelin Stahl vil du blive en del af et af landets mest prisvindende kreative teams på tværs af medier indenfor advertising, digital, social og dialog.
+</p>
+<p align="left">Vi beskæftiger 60+ søde og dygtige kollegaer som holder til i skønne inspirerende lokaler lige midt i København. Bureauet er stiftet af digitale frontløbere og har gennem årene vundet et to-cifret antal digitale danske awards samt høstet mange internationale anerkendelser for vores digitale arbejder.
+</p>
+<p align="left">Hvis jobbet lyder som noget for dig, så send din ansøgning og CV til Senior Partner Thomas Adamsen, <a style="color:rgb(49, 28, 15);" href="mailto:ta@hjaltelinstahl.com">ta@hjaltelinstahl.com</a> Du er naturligvis også altid velkommen til at ringe på tlf. 26 30 35 15, hvis du har spørgsmål til stillingen.
+</p>
+            </div>
+            <div class="threecol last" align="left">
+
+  </div>
+
+        </div>
+        <div class="row">
+            <div class="twelvecol">            </div>
+        </div>
+    </div>
+</section>
+-->
+<script type="text/javascript" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/css3-mediaqueries.js"></script>
+<script type="text/javascript" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/modernizr-2.5.3.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/jquery.sidr.min.js"></script>
+<script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/jquery.royalslider.min.js"></script>
+<script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/instagram.min.js"></script>
+<script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/hsplugin.js"></script>
+<?php
+$db = JFactory::getDbo();
+$query = $db->getQuery(true);
+
+$query->select(array('params'));
+$query->from('#__modules');
+$query->where('module LIKE \'mod_cases\' AND published = 1');
+$query->order('ordering ASC');
+
+$db->setQuery($query);
+
+$results = $db->loadObjectList();
+
+/*
+
+$db1 = JFactory::getDbo();
+$query1 = $db->getQuery(true);
+
+$query1->select(array('published'));
+$query1->from('#__modules');
+$query1->where('published = 1');
+$query1->order('ordering ASC');
+
+$db1->setQuery($query1);
+
+$results1 = $db->loadObjectList();
+
+
+
+foreach($results1 as $result1){
+  
+  var_dump($result1->published);
+  
+}
+
+*/
+
+$tempMessages = array();
+
+foreach($results as $result){
+  
+  $obj = json_decode($result->params);
+  
+  $tempMessages[] = removeFunny($obj->{'casefirma'}).':\''.removeFunnyapostrof(removeSpace($obj->{'sliderindhold'})).'\','.removeFunny($obj->{'casefirma2'}).':\''.removeFunnyapostrof(removeSpace($obj->{'sliderindhold2'})).'\','.removeFunny($obj->{'casefirma3'}).':\''.removeFunnyapostrof(removeSpace($obj->{'sliderindhold3'})).'\','.removeFunny($obj->{'casefirma4'}).':\''.removeFunnyapostrof(removeSpace($obj->{'sliderindhold4'})).'\'';
+  
+}
+$messages = '{'.implode(',',$tempMessages).'}';
+
+echo '<script>var messages = '.$messages.'</script>';
+
+function removeSpace($text){
+  return str_replace(array("\r\n", "\n", "\r"), '', $text);
+}
+function removeFunny($text){
+  return preg_replace('/[^a-z]/i','',$text);
+}
+function removeFunnyapostrof($text){
+  return str_replace(array("'"), '\'', $text);
+}
+?>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39196213-1']);
+  _gaq.push(['_setDomainName', 'hjaltelinstahl.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.0" type="template" client="site">
+	<name>lauritzz</name>
+	<creationDate>April 11, 2013</creationDate>
+	<author>Lau Rasmussen</author>
+	<authorEmail>lbr@hjaltelinstahl.com</authorEmail>
+	<authorUrl>http://www.hjaltelinstahl.com</authorUrl>
+	<copyright>Copyright (C) 2013 Lau Rasmussen All rights reserved.</copyright>
+	<license>My license</license>
+	<version>1.3</version>	
+	<description><![CDATA[
+	]]></description>
+		
+	<files>
+		<filename>index.html</filename>
+        <filename>templateDetails.xml</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>template_preview.png</filename>
+		<filename>favicon.ico</filename>
+		<folder>html</folder>
+		<folder>css</folder>
+		<folder>lbr</folder>
+		<folder>img</folder>
+		<folder>js</folder>
+	</files>
+	<positions>
+		<position>Menu</position>
+		<position>Hello</position>
+		<position>Cases</position>
+		<position>Client</position>
+		<position>Content</position>
+		<position>Awards</position>
+		<position>About</position>
+		<position>Newsletter</position>
+		<position>Contact</position>
+		<position>Presse</position>
+	</positions>
+</extension>

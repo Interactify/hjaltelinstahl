@@ -1,0 +1,67 @@
+.onecol {
+width: 4.7%;
+}
+
+.twocol {
+width: 13.2%;
+}
+
+.threecol {
+width: 22.05%;
+}
+
+.fourcol {
+width: 30.6%;
+}
+
+.fivecol {
+width: 39%;
+}
+
+.sixcol {
+width: 48%;
+}
+
+.sevencol {
+width: 56.75%;
+}
+
+.eightcol {
+width: 61.6%;
+}
+
+.ninecol {
+width: 74.05%;
+}
+
+.tencol { 
+width: 82%;
+}
+
+.elevencol {
+width: 91.35%;
+}
+.rsGCaption, .slidertopcontent {
+color:#fff;
+}
+.stregleft, .stregright {
+width: 50%;
+border-bottom: 1px solid #eae8e7;
+}
+.stregleft, .stregright {
+    width: 50%;
+	border-bottom: 1px solid #eae8e7;
+}
+.twelvecol:after {
+color: #fff;
+}
+#newsletter form input.button {
+	text-indent:-99999px;
+}
+.navactive .leftw {
+left:0;
+}
+.navactive .rightw {
+right:0;
+border-right: 6px solid #fff;
+}

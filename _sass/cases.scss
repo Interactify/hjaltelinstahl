@@ -1,0 +1,7 @@
+#section-cases {
+    div.row {
+        div.threecol:nth-child(4n+4) {
+            margin-right: 0px;
+        }
+    }
+}
