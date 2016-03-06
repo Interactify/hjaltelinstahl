@@ -30,10 +30,10 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     sort: "date:desc"
     fields:
+      - {label: "Thumbnail", name: "thumbnail", widget: "image", tagname: "div", class: "media-img optional cms-thumbnail hjaltelin-img", folder: "img/posts/thumbnails", optional: true}
       - {label: "Virksomhed", name: "virksomhed", widget: "string", tagname: "h1", class: "post-title"}
-      - {label: "Case", name: "title", widget: "string", tagname: "h4", class: "post-title"}
       - {label: "Type", name: "type", widget: "string", tagname: "h5", class: "post-title"}
-      - {label: "Thumbnail", name: "thumbnail", widget: "image", tagname: "div", class: "media-img optional cms-thumbnail", folder: "img/posts/thumbnails", optional: true}
+      - {label: "Case", name: "title", widget: "string", tagname: "h4", class: "post-title"}
       - {label: "Beskrivelse", name: "beskrivelse", widget: "markdown", tagname: "div", class: "post-bd", optional: true}
       - {label: "Billede 1", name: "billede_1", widget: "image", tagname: "div", class: "media-img optional cms-thumbnail", folder: "img/posts/thumbnails", optional: true}
       - {label: "Billede 1 - YouTube/Vimeo link", name: "billede_1_link", widget: "string", tagname: "h4", class: "post-title", optional: true}

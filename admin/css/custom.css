@@ -125,3 +125,16 @@ body.ember-application .cms-content, body.ember-application .cms-sidebar-content
 body.ember-application .cms-upload-dropzone {
     padding: 20px;
 }
+
+.hjaltelin-img {
+    cursor: pointer;
+    border: 4px solid #efebe4;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    width: 250px;
+    height: 175px;
+}
