@@ -6,7 +6,7 @@ development:
 production:
   backend:
     name: github-api
-    repo: fishadores/cap-leasing # Path to your Github repository
+    repo: Interactify/hjaltelinstahl # Path to your Github repository
     branch: master # Branch to update (master by default)
 
 media_folder: "images/uploads" # Folder where user uploaded files should go
@@ -16,19 +16,19 @@ collections:
     label: "Carrousel"
     folder: "_carrousel"
     create: true
-    slug: "{{slug}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    sort: "date:desc"
     fields:
       - {label: "Overskrift", name: "title", widget: "string", tagname: "h1", class: "post-title"}
       - {label: "Slider billede", name: "billede_1", widget: "image", tagname: "div", class: "media-img optional cms-thumbnail", folder: "img/posts/thumbnails", optional: true}
       - {label: "Popup billede", name: "billede_2", widget: "image", tagname: "div", class: "media-img optional cms-thumbnail", folder: "img/posts/thumbnails", optional: true}
       - {label: "Link", name: "slidelink", widget: "string", tagname: "p", class: "small muted hidden", optional: true}
-    meta:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "default"}
   - name: "Cases"
     label: "Cases"
     folder: "_cases"
     create: true
-    slug: "{{slug}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    sort: "date:desc"
     fields:
       - {label: "Virksomhed", name: "virksomhed", widget: "string", tagname: "h1", class: "post-title"}
       - {label: "Case", name: "title", widget: "string", tagname: "h1", class: "post-title"}
