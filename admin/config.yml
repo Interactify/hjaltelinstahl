@@ -62,5 +62,5 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     sort: "date:desc"
     fields:
-      - {label: "logo", name: "logo", widget: "image", tagname: "div", class: "media-img optional cms-thumbnail hjaltelin-img", folder: "img/posts/thumbnails"}
+      - {label: "logo", name: "logo", widget: "image", tagname: "div", class: "media-img optional cms-thumbnail hjaltelin-ref-logo", folder: "img/posts/thumbnails"}
       - {label: "Reference navn", name: "title", widget: "string", tagname: "h5", class: "post-title"}
