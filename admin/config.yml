@@ -73,4 +73,4 @@ collections:
     fields:
       - {label: "logo", name: "logo", widget: "image", tagname: "div", class: "media-img optional cms-thumbnail hjaltelin-ref-logo", folder: "img/posts/thumbnails"}
       - {label: "Titel", name: "title", widget: "string", tagname: "h2", class: "post-title"}
-      - {label: "tekst", name: "tekst", widget: "string", tagname: "h5", class: "post-title"}
+      - {label: "Tekst", name: "tekst", widget: "string", tagname: "h5", class: "post-title"}
