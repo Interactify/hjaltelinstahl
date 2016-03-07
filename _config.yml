@@ -12,6 +12,8 @@ collections:
     output: false
   cases:
     output: false
+  referencer:
+    output: false
       
 
 # Build settings
