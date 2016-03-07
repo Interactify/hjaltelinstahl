@@ -55,3 +55,12 @@ collections:
       - {label: "Billede 9 - YouTube/Vimeo link", name: "billede_9_link", widget: "string", tagname: "h4", class: "post-title", optional: true}
       - {label: "Billede 10", name: "billede_10", widget: "image", tagname: "div", class: "media-img optional cms-thumbnail", folder: "img/posts/thumbnails", optional: true}
       - {label: "Billede 10 - YouTube/Vimeo link", name: "billede_10_link", widget: "string", tagname: "h4", class: "post-title", optional: true}
+  - name: "Referencer"
+    label: "Referencer"
+    folder: "_referencer"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    sort: "date:desc"
+    fields:
+      - {label: "logo", name: "logo", widget: "image", tagname: "div", class: "media-img optional cms-thumbnail hjaltelin-img", folder: "img/posts/thumbnails"}
+      - {label: "Reference navn", name: "title", widget: "string", tagname: "h5", class: "post-title"}
