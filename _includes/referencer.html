@@ -1,4 +1,4 @@
-<section>
+<section id="section-referencer">
     <div class="clientwrapper">
         <div class="container headerline" id="Clients">
             <div class="row">
@@ -11,6 +11,26 @@
                 </div>
             </div>
         </div>
+        
+        <div class="custom">
+            <div class="container clientgrid">
+                <div class="row theend">
+                    <div class="inside">
+                        {% for reference in site.referencer reversed %}
+                            <div class="threecol {% cycle '', '', '', 'last' %}">
+                                <div class="clientlogo" style="background-image: url({{reference.logo}})"></div>
+                            </div>
+                            {% cycle '', '<div class="Mobileclearfix"></div>', '', '' %}
+                            {% cycle '','','','</div><div class="inside">' %}
+                        {% endfor %}
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <!--
         <div class="custom">
             <div class="container clientgrid">
                 <div class="row theend">
@@ -111,5 +131,6 @@
             </div>
 
         </div>
+        -->
     </div>
 </section>
