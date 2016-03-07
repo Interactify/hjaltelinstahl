@@ -2,4 +2,15 @@
     .award-logo {
         background-position: center;
     }
+    .container {
+        .row:nth-last-child(-n+2) {
+            display: none;
+            visibility: hidden;
+        }
+        .row:first-child {
+            display: block;
+            visibility: visible;
+        }
+    }
+    
 }
