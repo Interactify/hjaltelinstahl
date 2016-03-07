@@ -1,4 +1,40 @@
-<section id="awards">
+<section id="section-awards">
+    <div class="custom">
+        <div class="awardwrapper">
+            <div class="container headerline" id="Awards">
+                <div class="row">
+                    <div class="twelvecol">
+                        <h1>
+                            <span class="stregleft">&nbsp;</span>
+                            <span class="stregcenter">AWARDS <sup>and</sup> HONORS</span>
+                            <span class="stregright">&nbsp;</span>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    {% for award in site.awards reversed %}
+                    <div class="fourcol {% cycle '', '', 'last' %}">
+                        <div class="award-logo" style="background-image: url({{award.logo}})"></div>
+                        <span class="bgleft">
+                            <span class="bgright">
+                                <span class="pricename">{{award.title}}</span>
+                            </span>
+                        </span>
+                        <p class="priceyear">{{award.tekst}}</p>
+                    </div>
+                    {% cycle '', '', '  
+                </div>
+                <div class="row splitterawards"></div>
+                <div class="row">
+                    ' %}
+                {% endfor %}    
+            </div>
+        </div>
+    </div>
+    
+    <!--
     <div class="custom">
         <div class="awardwrapper">
             <div class="container headerline" id="Awards">
@@ -136,5 +172,5 @@
             </div>
         </div>
     </div>
-
+    -->
 </section>
