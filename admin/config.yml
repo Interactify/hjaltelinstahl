@@ -74,3 +74,14 @@ collections:
       - {label: "logo", name: "logo", widget: "image", tagname: "div", class: "media-img optional cms-thumbnail hjaltelin-ref-logo", folder: "img/posts/thumbnails"}
       - {label: "Titel", name: "title", widget: "string", tagname: "h2", class: "post-title"}
       - {label: "Tekst", name: "tekst", widget: "string", tagname: "h5", class: "post-title"}
+  - name: "About"
+    label: "About"
+    folder: "_about"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    sort: "date:desc"
+    fields:
+      - {label: "Overskrift - DK", name: "title", widget: "string", tagname: "h2", class: "post-title"}
+      - {label: "About - DK", name: "aboutdk", widget: "markdown", tagname: "div", class: "post-bd text", optional: true}
+      - {label: "Overskrift - UK", name: "titleuk", widget: "string", tagname: "h2", class: "post-title"}
+      - {label: "About - UK", name: "aboutuk", widget: "markdown", tagname: "div", class: "post-bd text", optional: true}
