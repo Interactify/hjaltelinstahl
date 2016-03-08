@@ -22,127 +22,26 @@
                         </p>
                     </div>
                 </div>
-                <div class="row expertise">
-                    <div class="threecol">
-                        <div class="insideheight">
-                            <div class="icon3">Digital</div>
-                            <h6>Digital</h6>
-                            <p><strong>Fuldservice digitalt bureau – kåret som årets webbureau i Danmark 2011</strong>
-                                <br />Vores digitale specialister, indenfor IA, kodning, koncept og ide, udvikler dynamiske hjemmesider,
-                                effektive bannere, Apps og meget, meget mere.
-                            </p>
-                            <p><span class="readmore">Læs mere</span>
-                            </p>
+                
+                    
+                    {% for badge in site.badges %}
+                        {% cycle '<div class="row expertise">','','','' %}
+                        <div class="threecol {% cycle '','','','last' %}">
+                            <div class="insideheight">
+                                <div class="icon3">Digital</div>
+                                <h6>{{badge.title}}</h6>
+                                <p>{{badge.textdk | markdownify}}
+                                </p>
+                                <p><span class="readmore">Læs mere</span>
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="threecol">
-                        <div class="insideheight">
-                            <div class="icon4">dialog</div>
-                            <h6>DIRECT & CEM</h6>
-                            <p><strong>Vinder af Advertising Effectiveness Awards i 2014 og 2015 med kunde/loyalitetsprogrammer</strong>
-                                <br />Vi tilbyder samtlige kompetencer indenfor customer experience management, one2one dialog,
-                                direct marketing og CRM. Fra strategi, customer connection mapping, koncept og idé, teknisk
-                                implementering, regelarkitektur, loyalty management, automatisering, datahandling til CLC,
-                                CEM og CRM outsourcing og hosting. Vi udvikler og drifter omfattende kundeprogrammer, som
-                                for eksempel SPORT-MASTER, IKEA Family, COOP, CPH Advantage, NNIT, Shell og Sydbank - samt
-                                udtænker, producerer og eksekverer integrerede directkampagner på tværs af medier, målgrupper
-                                og platforme.
-                            </p>
-                            <p><span class="readmore">Læs mere</span>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="Mobileclearfix"></div>
+                        {% cycle '', '<div class="Mobileclearfix"></div>' %}
+                        {% cycle '','','','</div>' %}
+                    {% endfor %}
 
-                    <div class="threecol">
-                        <div class="insideheight">
-                            <div class="icon6">Social</div>
-                            <h6>Social</h6>
-                            <p><strong>Vinder af adskillige Facebook awards siden 2007</strong>
-                                <br />Vores social-specialister har fokus på Community Management, Social Media strategi samt Social
-                                Media kampagner. Vi optimerer din tilstedeværelse på sociale medier og gør det til en værdifuld
-                                forretning. Vi har vundet adskillige priser i Danmark og globalt for vores effektive og nytænkende
-                                social media kampagner.
-                            </p>
-                            <p><span class="readmore">Læs mere</span>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="threecol last">
-                        <div class="insideheight">
-                            <div class="icon2">billede</div>
-                            <h6>advertising</h6>
-                            <p><strong>Top 3 reklamebureau i Bureauanalysen 2013</strong>
-                                <br />Vores seniorkreative udvikler medie-neutrale, organiserende ideer, der giver dig gennemtrængende
-                                kommunikation på tværs af medier. Vi står bag nogle af Danmarks mest populære kampagner,
-                                blandt andet IKEA "Kvalitetstestet-af-hverdagen", Tryg "Det handler egentlig ikke om forsikring"
-                                og Synoptik. Vi ved fra erfaring, at en rigtig god reklamefilm, med den rette cross media
-                                integration bogstaveligt talt kan ændre din forretning på en måned.
-                            </p>
-                            <p><span class="readmore">Læs mere</span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row expertise">
-                    <div class="threecol">
-                        <div class="insideheight">
-                            <div class="icon5">billede</div>
-                            <h6>film</h6>
-                            <p><strong>Vores filmafdeling Pegasus Production producerer mere end 150 film hvert år</strong>
-                                <br />Vores erfarne in-house producere og VFX artists arbejder sammen med de bedste filmhold og
-                                instruktører. For os handler det nemlig frem for alt om kvalitet, uanset om du skal have
-                                produceret mindre low-cost skiltefilm eller store og omfattende reklamefilm.
-                            </p>
-                            <p><span class="readmore">Læs mere</span>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="threecol">
-                        <div class="insideheight">
-                            <div class="icon1">branding</div>
-                            <h6>branding</h6>
-                            <p><strong>Forbrugere møder dit brand i mange forskellige connection points</strong>
-                                <br />Derfor er det helt essentielt, at din brand-identitet er både relevant og krystalklar – fra
-                                tv-reklamer til emballage design til en kommentartråd på sociale medier. Vores branding-eksperter
-                                hjælper dig med at udarbejde brand-strategier og definere dit brands kerne. De primære spørgsmål
-                                er: Hvorfor eksisterer dit brand. Hvordan skal dit brand adskille sig fra konkurrenterne
-                                og hvad skal du derfor tilbyde og kommunikere.
-                            </p>
-                            <p><span class="readmore">Læs mere</span>
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="Mobileclearfix"></div>
-
-                    <div class="threecol">
-                        <div class="insideheight">
-                            <div class="icon7">billede</div>
-                            <h6>design</h6>
-                            <p><strong>Et krystalklart brand skal have en krystalklar visuel brandidentitet, der fungerer i alle connection points</strong>
-                                <br />Fra logotype til emballage til Facebook. Fra et 10x15 meter banner til en 1x2 cm Facebook-annonce.
-                                Vores erfarne designere har arbejdet med new media siden begyndelsen og kan udvikle en visuel
-                                identitet og brand manual, der virker på tværs af medier.
-                            </p>
-                            <p><span class="readmore">Læs mere</span>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="threecol last">
-                        <div class="insideheight">
-                            <div class="icon8">billede</div>
-                            <h6>production</h6>
-                            <p><strong>Vi producerer annoncer, bannere, POS og meget, meget mere</strong>
-                                <br />Når din visuelle identitet er på plads, skal det være nemt at implementere og til at betale.
-                                Derfor tilbyder vi produktion af høj kvalitet for kun 700 kr. pr. påbegyndt time, med direkte
-                                kontakt til vores dygtige og erfarne grafikere og DTP'ere.
-                            </p>
-                            <p><span class="readmore">Læs mere</span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
+                
+                
             </div>
         </div>
     </div>

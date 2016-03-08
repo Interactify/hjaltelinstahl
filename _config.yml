@@ -18,6 +18,8 @@ collections:
     output: false
   about:
     output: false
+  badges:
+    output: false
       
 
 # Build settings
