@@ -85,3 +85,14 @@ collections:
       - {label: "About - DK", name: "aboutdk", widget: "markdown", tagname: "div", class: "post-bd text", optional: true}
       - {label: "Overskrift - UK", name: "titleuk", widget: "string", tagname: "h2", class: "post-title"}
       - {label: "About - UK", name: "aboutuk", widget: "markdown", tagname: "div", class: "post-bd text", optional: true}
+  - name: "AboutBadges"
+    label: "About Badges"
+    folder: "_badges"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    sort: "date:desc"
+    fields:
+      - {label: "Thumbnail", name: "thumbnail", widget: "image", tagname: "div", class: "media-img optional cms-thumbnail hjaltelin-img", folder: "img/posts/thumbnails"}
+      - {label: "Overskrift - UK", name: "titleuk", widget: "string", tagname: "h2", class: "post-title"}
+      - {label: "Tekst - DK", name: "textdk", widget: "markdown", tagname: "div", class: "post-bd text", optional: true}
+      - {label: "Tekst - UK", name: "textuk", widget: "markdown", tagname: "div", class: "post-bd text", optional: true}
