@@ -28,10 +28,43 @@
                         {% cycle '<div class="row expertise">','','','' %}
                         <div class="threecol {% cycle '','','','last' %}">
                             <div class="insideheight">
-                                <div class="icon3">Digital</div>
+                                <div class="badge" style="background-image:url({{badge.thumbnail}})">Digital</div>
                                 <h6>{{badge.title}}</h6>
                                 {{badge.textdk | markdownify}}
                                 <p><span class="readmore">Læs mere</span>
+                                </p>
+                            </div>
+                        </div>
+                        {% cycle '', '<div class="Mobileclearfix"></div>' %}
+                        {% cycle '','','','</div>' %}
+                    {% endfor %}
+
+                
+                
+            </div>
+        </div>
+    </div>
+    
+    <div class="customenglish">
+        <div class="aboutwrapper">
+            <div class="container">
+                <div class="row abouttext">
+                    <div class="twelvecol">
+                        <p>
+                            {{ a.aboutuk }}
+                        </p>
+                    </div>
+                </div>
+                
+                    
+                    {% for badge in site.badges %}
+                        {% cycle '<div class="row expertise">','','','' %}
+                        <div class="threecol {% cycle '','','','last' %}">
+                            <div class="insideheight">
+                                <div class="badge" style="background-image:url({{badge.thumbnail}})">Digital</div>
+                                <h6>{{badge.titleuk}}</h6>
+                                {{badge.textuk | markdownify}}
+                                <p><span class="readmore">Read more</span>
                                 </p>
                             </div>
                         </div>
