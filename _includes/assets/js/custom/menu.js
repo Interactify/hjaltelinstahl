@@ -1,9 +1,4 @@
-$('.sprog').click(function() {
-		$('.customdansk').toggle();
-		$('.customenglish').toggle();
-		$('.dansk').toggle();
-		$('.english').toggle();
-	});
+
 
 jQuery(document).ready(function(){
 	$('.insideheight h6 + p').css({"max-height" : "66px", "overflow" : "hidden", "cursor" : "pointer" });
@@ -47,11 +42,7 @@ function getTargetTop(elem){
     return $(id).offset().top - offset;
 }
     
-$('a[href^="#"]').click(function(event) {
-    var target = getTargetTop($(this));
-    $('html, body').animate({scrollTop:target}, timeriphone);
-    event.preventDefault(event);
-});
+
     
     
 $(function(){
@@ -73,37 +64,24 @@ $(function(){
     $(window).scroll(function(e){
         checkSectionSelected($(window).scrollTop())
     });
-})
-	
-(function($){
-  // get hash value
-		$(window).on('hashchange', function() {
-		 var hash = window.location.hash;
-		  // now scroll to element with that id
-		  $('html, body').animate({ scrollTop: $(hash).offset().top -82 });
-		});
-})(jQuery);
-
-jQuery(document).ready(function($) {
-var hash = window.location.hash;
-var newhash = hash.substr(1,99);
-	if (newhash.length) {
-	if ( $(".grid img").hasClass(newhash) ){
-		$(".grid img."+newhash).trigger("click");
-	}else{
-		$("a[href='"+hash+"']").trigger("click");
-	}
-	}
-});
-
-
-
-
-
-var userFeed = new Instafeed({
+    
+    $('a[href^="#"]').click(function(event) {
+        var target = getTargetTop($(this));
+        $('html, body').animate({scrollTop:target}, timeriphone);
+        event.preventDefault(event);
+    });
+    
+    $('.sprog').click(function() {
+		$('.customdansk').toggle();
+		$('.customenglish').toggle();
+		$('.dansk').toggle();
+		$('.english').toggle();
+	});
+    
+    var userFeed = new Instafeed({
         get: 'user',
         links: true,
-        template: '<div id="nummer{{denklasse}}" class="nummer"><img src="{{image}}" /><div class="caption"><a href="{{link}}" target="_blank">{{caption}}</a></div></div>',
+        template: '<div id="nummer{% raw %}{{denklasse}}{% endraw %}" class="nummer"><img src="{% raw %}{{image}}{% endraw %}" /><div class="caption"><a href="{% raw %}{{link}}{% endraw %}" target="_blank">{% raw %}{{caption}}{% endraw %}</a></div></div>',
         userId: 547295039,
         accessToken: '547295039.467ede5.773f699b58ee49589804f9eaf9afd062',
         after: function () {
@@ -126,22 +104,75 @@ var userFeed = new Instafeed({
      
     })
     userFeed.run();
+})
+	
+// (function($){
+//   // get hash value
+// 		$(window).on('hashchange', function() {
+// 		 var hash = window.location.hash;
+// 		  // now scroll to element with that id
+// 		  $('html, body').animate({ scrollTop: $(hash).offset().top -82 });
+// 		});
+// })(jQuery);
+
+// jQuery(document).ready(function($) {
+// var hash = window.location.hash;
+// var newhash = hash.substr(1,99);
+// 	if (newhash.length) {
+// 	if ( $(".grid img").hasClass(newhash) ){
+// 		$(".grid img."+newhash).trigger("click");
+// 	}else{
+// 		$("a[href='"+hash+"']").trigger("click");
+// 	}
+// 	}
+// });
+
+
+
+
+
+// var userFeed = new Instafeed({
+//         get: 'user',
+//         links: true,
+//         template: '<div id="nummer{{denklasse}}" class="nummer"><img src="{{image}}" /><div class="caption"><a href="{{link}}" target="_blank">{{caption}}</a></div></div>',
+//         userId: 547295039,
+//         accessToken: '547295039.467ede5.773f699b58ee49589804f9eaf9afd062',
+//         after: function () {
+// 	      	var divs = $("#instafeed > div");
+// 	      	for(var i = 0; i < divs.length; i+=5) {
+// 	        divs.slice(i, i+5).wrapAll("<div class='test new"+i+"'></div>");
+//       }
+//       $(".test").on( "click", ".nummer", function(event) {
+//       if (!$(this).hasClass("aktiv")) {
+//       $('.nummer').removeClass('aktiv');
+//         var b0 = $(this).clone().addClass('aktiv');
+//         b0.prependTo($(this).parent());
+//         $(this).remove();
+//         $(this).unbind('click'); 
+//         }
+//       });
+
     
-    (function($){
-      $(window).load(function(){
-        $("#instacontainer").mCustomScrollbar({
-          mouseWheel:false,
-          scrollButtons:{
-            enable:false,
-            scrollSpeed: "auto"
-          },
-          autoHideScrollbar:true,
-          horizontalScroll:true,
-          advanced:{
-            autoExpandHorizontalScroll:true
-          }
-        });
-      });
-    })(jQuery);
+//     }
+     
+//     })
+//     userFeed.run();
+    
+//     (function($){
+//       $(window).load(function(){
+//         $("#instacontainer").mCustomScrollbar({
+//           mouseWheel:false,
+//           scrollButtons:{
+//             enable:false,
+//             scrollSpeed: "auto"
+//           },
+//           autoHideScrollbar:true,
+//           horizontalScroll:true,
+//           advanced:{
+//             autoExpandHorizontalScroll:true
+//           }
+//         });
+//       });
+//     })(jQuery);
 
 
