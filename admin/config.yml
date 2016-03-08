@@ -96,3 +96,5 @@ collections:
       - {label: "Overskrift - UK", name: "titleuk", widget: "string", tagname: "h2", class: "post-title"}
       - {label: "Tekst - DK", name: "textdk", widget: "markdown", tagname: "div", class: "post-bd text", optional: true}
       - {label: "Tekst - UK", name: "textuk", widget: "markdown", tagname: "div", class: "post-bd text", optional: true}
+    meta:
+      - {label: "Position", name: "position", widget: "number", optional: false}
