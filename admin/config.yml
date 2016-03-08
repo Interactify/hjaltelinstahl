@@ -110,4 +110,3 @@ collections:
       - {label: "Tekst", name: "text", widget: "markdown", tagname: "div", class: "post-bd text", optional: true}
     meta:
       - {label: "Position", name: "position", widget: "number", optional: false}
-      
