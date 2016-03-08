@@ -107,7 +107,7 @@ $(function(){
     
     
     // take care of markdown linebreaks
-    $('#section-about p').each(function(i, tag){
+    $('#section-about .twelvecol p').each(function(i, tag){
     str=$(tag).text().trim();
     str = str.replace(/(?:\r\n|\r|\n)/g, '<br />');
     $(tag).html(str);
