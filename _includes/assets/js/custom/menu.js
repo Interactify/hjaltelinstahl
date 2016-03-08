@@ -104,6 +104,14 @@ $(function(){
      
     })
     userFeed.run();
+    
+    
+    // take care of markdown linebreaks
+    $('#section-about p').each(function(i, tag){
+    str=$(tag).text();
+    str = str.replace(/(?:\r\n|\r|\n)/g, '<br />');
+    $(tag).html(str);
+    })
 })
 	
 // (function($){
