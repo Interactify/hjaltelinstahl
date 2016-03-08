@@ -10,7 +10,7 @@ jQuery(document).ready(function(){
 		}else{
 			$('.insideheight h6 + p').css({"max-height" : "66px", "overflow" : "hidden", "cursor" : "pointer" });
 				$(this).find('h6 + p').animate({ "max-height" : "1000px"});
-				$('.readmore').text('Læs mere');
+				$('#section-about .readmore').text('Læs mere');
 				$(this).find('span').text('Luk igen');
 		}	
 	});
