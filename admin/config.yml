@@ -92,7 +92,7 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     sort: "date:desc"
     fields:
-      - {label: "Thumbnail", name: "thumbnail", widget: "image", tagname: "div", class: "media-img optional cms-thumbnail hjaltelin-img", folder: "img/posts/thumbnails"}
+      - {label: "Thumbnail", name: "thumbnail", widget: "image", tagname: "div", class: "media-img optional cms-thumbnail hjaltelin-ref-logo", folder: "img/posts/thumbnails"}
       - {label: "Overskrift - UK", name: "titleuk", widget: "string", tagname: "h2", class: "post-title"}
       - {label: "Tekst - DK", name: "textdk", widget: "markdown", tagname: "div", class: "post-bd text", optional: true}
       - {label: "Tekst - UK", name: "textuk", widget: "markdown", tagname: "div", class: "post-bd text", optional: true}
