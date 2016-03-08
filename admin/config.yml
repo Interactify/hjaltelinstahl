@@ -99,8 +99,8 @@ collections:
       - {label: "Tekst - UK", name: "textuk", widget: "markdown", tagname: "div", class: "post-bd text", optional: true}
     meta:
       - {label: "Position", name: "position", widget: "number", optional: false}
-  - name: "newsPress"
-    label: "News and press"
+  - name: "news"
+    label: "News"
     folder: "_news"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
