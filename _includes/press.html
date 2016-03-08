@@ -19,6 +19,31 @@
         </div>
         <div class="moduletable">
             <div class="container newsgrid">
+                
+                {% for new in site.news %}
+                    {% cycle '<div class="row">', '', '', '' %}
+                    <div class="threecol {% cycle '', '', '', 'last' %}">
+                        <div class="inside">
+                            <h4>{{new.title}}</h4>
+                            <p>{{new.text}}</p>
+                            <p class="readmore"><a href="{{new.link}}">Læs mere</a>
+                            </p>
+                        </div>
+                    </div>
+                    {% cycle '','<div class="Mobileclearfix"></div>','','' %}
+                    {% cycle '','','','</div>' %}
+                {% endfor %}
+                    
+                    
+                    
+                
+            </div>
+        </div>
+        
+        
+        
+        <!--<div class="moduletable">
+            <div class="container newsgrid">
                 <div class="row">
                     <div class="threecol">
                         <div class="inside">
@@ -62,7 +87,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>-->
         <!--
                 TAS DISABLED
             <iframe frameborder="0" scrolling="no" src="/lauritzz/subscribe.php" allowTransparency="true"></iframe>
