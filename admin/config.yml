@@ -77,7 +77,7 @@ collections:
   - name: "About"
     label: "About"
     folder: "_about"
-    create: true
+    create: false
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     sort: "date:desc"
     fields:
