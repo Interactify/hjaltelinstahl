@@ -93,8 +93,9 @@ collections:
     sort: "date:desc"
     fields:
       - {label: "Thumbnail", name: "thumbnail", widget: "image", tagname: "div", class: "media-img optional cms-thumbnail hjaltelin-ref-logo", folder: "img/posts/thumbnails"}
-      - {label: "Overskrift - UK", name: "titleuk", widget: "string", tagname: "h2", class: "post-title"}
+      - {label: "Overskrift - DK", name: "title", widget: "string", tagname: "h2", class: "post-title"}
       - {label: "Tekst - DK", name: "textdk", widget: "markdown", tagname: "div", class: "post-bd text", optional: true}
+      - {label: "Overskrift - UK", name: "titleuk", widget: "string", tagname: "h2", class: "post-title"}
       - {label: "Tekst - UK", name: "textuk", widget: "markdown", tagname: "div", class: "post-bd text", optional: true}
     meta:
       - {label: "Position", name: "position", widget: "number", optional: false}
