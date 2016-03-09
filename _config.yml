@@ -20,6 +20,19 @@ collections:
     output: false
   badges:
     output: false
+  news:
+    output: false
+  about:
+    output: true
+    permalink: /about/:title.html
+
+
+defaults:
+  - scope:
+      path: ""
+      type: "news"
+    values:
+      layout: "news"
       
 
 # Build settings
