@@ -112,3 +112,16 @@ collections:
       - {label: "Tekst til egen side", name: "newpage", widget: "markdown", tagname: "div", class: "post-bd text", optional: true}
     meta:
       - {label: "Position", name: "position", widget: "number", optional: false}
+  - name: "contact"
+    label: "Get in touch"
+    folder: "_contact"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    sort: "date:desc"
+    fields:
+      - {label: "Navn", name: "title", widget: "string", tagname: "h2", class: "post-title"}
+      - {label: "titel", name: "text", widget: "string", tagname: "h5", class: "post-bd text", optional: true}
+      - {label: "tlf", name: "link", widget: "string", tagname: "h5", class: "post-bd text", optional: true}
+      - {label: "email", name: "email", widget: "string", tagname: "h5", class: "post-bd text", optional: true}
+    meta:
+      - {label: "Position", name: "position", widget: "number", optional: false}
