@@ -26,7 +26,7 @@
                         <div class="inside">
                             <h4>{{new.title}}</h4>
                             <p>{{new.text}}</p>
-                            <p class="readmore"><a href="{{new.link}}">Læs mere</a>
+                            <p class="readmore"><a href="{%if new.newpage%}{{new.url}}{%else%}{{new.link}}{%endif%}">Læs mere</a>
                             </p>
                         </div>
                     </div>
