@@ -21,10 +21,11 @@ collections:
   badges:
     output: false
   news:
-    output: false
-  about:
     output: true
-    permalink: /about/:title.html
+    permalink: /news/:title.html
+  about:
+    output: false
+    
 
 
 defaults:
