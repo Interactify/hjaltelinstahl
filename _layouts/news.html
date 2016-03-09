@@ -70,7 +70,9 @@
     <div class="container socialcontent">
         <div class="row">
            <div class="sixcol">
+              {% if page.newpage %}
               {{ page.newpage | markdownify }}
+              {% endif %}
            </div>
 <!--           
             <div align="left" class="sixcol last">
