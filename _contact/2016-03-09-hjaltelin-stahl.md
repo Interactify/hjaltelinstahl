@@ -5,7 +5,7 @@ link: +45 - 3313 7090
 email: null
 white: true
 cmsUserSlug: ""
-date: 2016-03-09 
-position: null
+date: 2016-03-09T00:00:00.000Z
+position: 10
 ---
 
