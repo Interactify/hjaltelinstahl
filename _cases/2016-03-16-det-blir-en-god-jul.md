@@ -1,5 +1,5 @@
 ---
-thumbnail: /images/uploads/thumbnail.png
+thumbnail: /images/uploads/thumbnail_kvickly.png
 virksomhed: Kvickly
 type: "Det blir' en god jul"
 title: "Det blir' en god jul"
@@ -25,6 +25,6 @@ billede_9_link: null
 billede_10: null
 billede_10_link: null
 cmsUserSlug: ""
-date: 2016-03-16 
+date: 2016-03-16T00:00:00.000Z
 ---
 
