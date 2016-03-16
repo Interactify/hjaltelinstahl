@@ -1,7 +1,7 @@
 ---
 thumbnail: /images/uploads/thumbnail.png
 virksomhed: "Alkohol & Samfund"
-type: Cross Media
+type: Respekt
 title: Respekt
 beskrivelse: "Hvordan motiverer man folk med et alkoholproblem til at gøre noget ved det? Hjaltelin Stahls cross media kampagne for Alkohol &amp; Samfund har vist, at det er gulerod og ikke pisk, der skal til. Ved at fokusere på det, der venter på den anden side af misbruget, lykkedes det at fåmarkant flere til at tage imod et af de mange behandlingstilbud, som kommunernetilbyder.\n\n"
 billede_1: /images/uploads/skrmbillede-2016-03-16-kl.-13.51.33.png
