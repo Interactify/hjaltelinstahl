@@ -4,7 +4,7 @@ virksomhed: SWIPP
 type: Gode Sammen
 title: Gode Sammen
 beskrivelse: "Mobilbetalings app'en, Swipp, skulle relanceres i et stærkt konkurrencepræget marked. I første ombæring var udfordringen at skabe forståelse i befolkningen for at Swipp var en reel spiller på markedet, der var skabt af deres egen bank sammen med over 70 andre pengeinstitutter som ét fælles projekt. Dernæst at Swipp og detailhandelen havde en bedre løsning, med bedre sikkerhed og højere til loftet. Og endelig at Swipp og de handlende sammen kunne tilbyde mere til slutbrugeren. Det kom der en række aktiviteter ud af, som blev båret af en stribe tv-spots under temaet &quot;Gode sammen&quot;. \n\n"
-billede_1: /images/uploads/gode-sammen/skrmbillede-2016-03-16-kl.-18.33.42.png
+billede_1: /images/uploads/gode-sammen/skrmbillede-2016-03-16-kl.-19.06.43.png
 billede_1_link: "https://www.youtube.com/watch?v=z0NfRYhzx90"
 billede_2: /images/uploads/gode-sammen/skrmbillede-2016-03-16-kl.-18.42.16.png
 billede_2_link: "https://www.youtube.com/watch?v=w1K2rSEfZ8U"
