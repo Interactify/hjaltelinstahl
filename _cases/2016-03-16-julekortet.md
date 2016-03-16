@@ -1,5 +1,5 @@
 ---
-thumbnail: /images/uploads/thumbnail.png
+thumbnail: /images/uploads/julekortet/thumbnail_julekortet.png
 virksomhed: Post Danmark
 type: Julekortet
 title: Julekortet
