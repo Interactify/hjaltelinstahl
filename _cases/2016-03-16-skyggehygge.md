@@ -1,7 +1,7 @@
 ---
 thumbnail: /images/uploads/skyggehygge/thumbnail.png
-virksomhed: SkyggeHygge
-type: Cross Media
+virksomhed: Kræftens Bekæmpelse
+type: SkyggeHygge
 title: SkyggeHygge
 beskrivelse: "Danskerne er glade for solen… Lidt for glade. Derfor satte Kræftens Bekæmpelse og TrygFonden sig for at skrue ned for solen i løbet af sommeren 2015 og flytte danskernes hygge ind i skyggen mellem 12 og 15, hvor solen er skarpest. Det hjalp vi dem med gennem en bred kampagnevifte af TVC, social media-aktiviteter og online bannere. Og selvom det er en alvorlig sag at informere og forebygge mod kræft i huden, så handlede kampagnen om at lave en masse god skyggehygge i løbet af sommeren - hyg med her…\n\n"
 billede_1: /images/uploads/skyggehygge/skrmbillede-2016-03-16-kl.-15.20.35.png
@@ -25,6 +25,6 @@ billede_9_link: null
 billede_10: null
 billede_10_link: null
 cmsUserSlug: ""
-date: 2016-03-16 
+date: 2016-03-16T00:00:00.000Z
 ---
 
