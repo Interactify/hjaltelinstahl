@@ -1,5 +1,5 @@
 ---
-thumbnail: /images/uploads/thumbnail.png
+thumbnail: /images/uploads/thumbnail_as.png
 virksomhed: "Alkohol & Samfund"
 type: Respekt
 title: Respekt
