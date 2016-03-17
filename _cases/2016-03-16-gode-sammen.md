@@ -10,7 +10,7 @@ billede_2: /images/uploads/gode-sammen/skrmbillede-2016-03-16-kl.-18.42.16.png
 billede_2_link: "https://www.youtube.com/watch?v=w1K2rSEfZ8U"
 billede_3: /images/uploads/gode-sammen/skrmbillede-2016-03-16-kl.-18.43.30.png
 billede_3_link: "https://www.youtube.com/watch?v=dGqRaoSbETs"
-billede_4: /images/uploads/gode-sammen/hs_cases_swipp_cr_desktop_mobile.png
+billede_4: /images/uploads/hs_cases_950x550_swipp_site_cr_01.png
 billede_4_link: null
 billede_5: null
 billede_5_link: null
@@ -25,6 +25,6 @@ billede_9_link: null
 billede_10: null
 billede_10_link: null
 cmsUserSlug: ""
-date: 2016-03-16 
+date: 2016-03-16T00:00:00.000Z
 ---
 
