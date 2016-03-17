@@ -12,7 +12,7 @@ billede_3: /images/uploads/rejsejeblikke/skrmbillede-2016-03-16-kl.-16.22.05.png
 billede_3_link: "https://www.youtube.com/watch?v=HFAuSYitsOk"
 billede_4: /images/uploads/rejsejeblikke/skrmbillede-2016-03-16-kl.-16.23.38.png
 billede_4_link: "https://www.youtube.com/watch?v=5FXEjk0dBDU"
-billede_5: null
+billede_5: /images/uploads/hs_cases_950x550_cph_fb_cr.png
 billede_5_link: null
 billede_6: null
 billede_6_link: null
@@ -25,6 +25,6 @@ billede_9_link: null
 billede_10: null
 billede_10_link: null
 cmsUserSlug: ""
-date: 2016-03-16 
+date: 2016-03-16T00:00:00.000Z
 ---
 
