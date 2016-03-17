@@ -1,7 +1,7 @@
 ---
 thumbnail: /images/uploads/casethumb_ejp.jpg
 virksomhed: EUROJACKPOT
-type: Crossmedia
+type: Vind rigtig store penge
 title: EUROJACKPOT
 beskrivelse: "I Lotto vinder man mange penge, i Eurojackpot vinder man rigtig mange penge. Vores Eurojackpot univers taler til den lidt yngre målgruppe og visualiserer, hvor ekstreme præmiesummer der spilles om i det europæiske Lotto med miniumgevinster på 63 mio.kr. ugentligt. Det gøres i et humoristisk 2-trins greb, hvor vi først placerer vores hovedperson i en attraktiv situation, som havde han lige vundet den store gevinst – og så trumfer med at skrue endnu mere op for ekstravagancen. ”Vind store penge. Rigtig store penge.”"
 billede_1: /images/uploads/eurojackpot/eurojackpot-case-01.jpg
@@ -25,6 +25,6 @@ billede_9_link: null
 billede_10: null
 billede_10_link: null
 cmsUserSlug: ""
-date: 2016-03-07 
+date: 2016-03-07T00:00:00.000Z
 ---
 
