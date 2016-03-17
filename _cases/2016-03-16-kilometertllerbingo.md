@@ -1,5 +1,5 @@
 ---
-thumbnail: /images/uploads/thumbnail_bingo.png
+thumbnail: /images/uploads/skrmbillede-2016-03-17-kl.-14.05.04.png
 virksomhed: Suzuki
 type: Kilometertællerbingo
 title: Kilometertællerbingo
