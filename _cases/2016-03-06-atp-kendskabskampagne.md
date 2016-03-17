@@ -1,8 +1,8 @@
 ---
-virksomhed: ATP KENDSKABSKAMPAGNE
-title: ATP KENDSKABSKAMPAGNE
-type: Crossmedia
 thumbnail: /images/uploads/atp-kendskabskampagne/casethumb_volapyk.jpg
+virksomhed: ATP
+type: Kendskabskampagne
+title: ATP kendskabskampagne
 beskrivelse: null
 billede_1: /images/uploads/atp-kendskabskampagne/volapyk-case-01.jpg
 billede_1_link: "http://youtu.be/8Ueqr--AQfw"
@@ -25,6 +25,6 @@ billede_9_link: null
 billede_10: null
 billede_10_link: null
 cmsUserSlug: ""
-date: 2016-03-06 
+date: 2016-03-06T00:00:00.000Z
 ---
 
