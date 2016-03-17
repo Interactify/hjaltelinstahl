@@ -1,7 +1,7 @@
 ---
 thumbnail: /images/uploads/cases_thumbs_cph_advantage.jpg
-virksomhed: CPH Advantage
-type: Crossmedia
+virksomhed: Københavns Lufthavne
+type: CPH Advantage
 title: CPH Advantage
 beskrivelse: "12 måneder... mere skulle der ikke til for at aktivere vores medlemmer og deres fordele. Gennem relevant dialog og kommunikation fik vi bevist programmets værd og fastslået, at CPH Advantage er klubben for dig, der vitterlig vil ha' mere. Med en positiv ROI på over 7 opnåede vi målet for CPH Advantage og fik indfriet de høje forventninger, som både medlemmerne og lufthavnen selv havde til fordelsprogrammet."
 billede_1: /images/uploads/cph-advantage/cph-advantage-case-01.png
@@ -25,6 +25,6 @@ billede_9_link: null
 billede_10: null
 billede_10_link: null
 cmsUserSlug: ""
-date: 2016-03-07 
+date: 2016-03-07T00:00:00.000Z
 ---
 
