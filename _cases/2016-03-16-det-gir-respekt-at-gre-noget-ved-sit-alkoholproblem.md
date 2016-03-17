@@ -8,7 +8,7 @@ billede_1: /images/uploads/skrmbillede-2016-03-16-kl.-13.51.33.png
 billede_1_link: "https://www.youtube.com/watch?v=ak6Uo2mSexg&rel=0"
 billede_2: /images/uploads/skrmbillede-2016-03-16-kl.-13.53.10.png
 billede_2_link: "https://www.youtube.com/watch?v=3Ao_q8-7f8k"
-billede_3: /images/uploads/respekt/artwork_respekt.png
+billede_3: null
 billede_3_link: null
 billede_4: null
 billede_4_link: null
