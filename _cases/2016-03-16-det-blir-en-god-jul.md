@@ -8,7 +8,7 @@ billede_1: /images/uploads/det-blir-en-god-jul/skrmbillede-2016-03-16-kl.-15.59.
 billede_1_link: "https://www.youtube.com/watch?v=tDK5uAvGQdM"
 billede_2: /images/uploads/det-blir-en-god-jul/skrmbillede-2016-03-16-kl.-16.03.37.png
 billede_2_link: "https://www.youtube.com/watch?v=HtTvV9fqT3I"
-billede_3: null
+billede_3: /images/uploads/hs_cases_950x550_kvickly_jul_cr.png
 billede_3_link: null
 billede_4: null
 billede_4_link: null
