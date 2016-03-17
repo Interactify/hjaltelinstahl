@@ -10,7 +10,7 @@ billede_2: /images/uploads/skrmbillede-2016-03-16-kl.-16.41.15.png
 billede_2_link: "https://www.youtube.com/watch?v=mKbO8lwRee8&index=3&list=PL_gHF9vtwkV6npRpeipHaFwcFgOlJ_yFs"
 billede_3: /images/uploads/hs_cases_arla_cheasy_cr.png
 billede_3_link: null
-billede_4: null
+billede_4: /images/uploads/hs_cases_arla_cheasy_011.png
 billede_4_link: null
 billede_5: null
 billede_5_link: null
