@@ -8,7 +8,7 @@ billede_1: /images/uploads/drikkepres-eksperimentet/thumbnail.jpeg
 billede_1_link: "https://www.youtube.com/watch?v=6azasPImA2g&rel=0"
 billede_2: /images/uploads/drikkepres-eksperimentet/skrmbillede-2016-03-16-kl.-14.27.55.png
 billede_2_link: "https://www.youtube.com/watch?v=BueXTlgpXgM"
-billede_3: /images/uploads/drikkepres-eksperimentet/hs_cases_drikkepress_eksperiment_facebook.png
+billede_3: /images/uploads/hs_cases_950x550_alko_og_samf_cr.png
 billede_3_link: null
 billede_4: null
 billede_4_link: null
