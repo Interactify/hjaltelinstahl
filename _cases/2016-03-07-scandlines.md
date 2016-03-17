@@ -1,8 +1,8 @@
 ---
 thumbnail: /images/uploads/casethumb_scandlines.jpg
 virksomhed: Scandlines
-type: Crossmedia
-title: Scandlines
+type: Kaptajn Kaspersen
+title: Kaptajn Kaspersen
 beskrivelse: "Der er lagt op til røverhistorier fra søfartens barndom, når vi ruller Scandlines nye reklameunivers ud. Budskabet i det nye reklameunivers er, at ”Der er nu noget ved at sejle. Især nu om dage med de mange bekvemmeligheder man finder på Scandlines-færgerne.” I gamle dage var det at sejle derimod en helt anden historie, kan vi forstå på Kaptajn Kaspersen, som i skikkelse af skuespilleren Tommy Kenter, der - iført sømandslook og fuldskæg - er frontfiguren i Scandlines nye reklameunivers, i form af tv-spots og massiv online-tilstedeværelse."
 billede_1: /images/uploads/scandlines/scandlines-case-01.jpg
 billede_1_link: "http://youtu.be/yb7jnDYqzLE"
@@ -25,6 +25,6 @@ billede_9_link: null
 billede_10: null
 billede_10_link: null
 cmsUserSlug: ""
-date: 2016-03-07 
+date: 2016-03-07T00:00:00.000Z
 ---
 
