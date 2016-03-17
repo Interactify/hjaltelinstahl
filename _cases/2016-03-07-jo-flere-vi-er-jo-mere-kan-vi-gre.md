@@ -1,8 +1,8 @@
 ---
 thumbnail: /images/uploads/casethumb_joflerevier.jpg
 virksomhed: Kærftens Bekæmpelse
-type: Crossmedia
-title: "JO FLERE VI ER, JO MERE KAN VI GØRE"
+type: Jo flere vi er
+title: Jo flere vi er
 beskrivelse: "… sådan lyder titlen på en ny stor crossmedia-kampagne fra Kræftens Bekæmpelse udarbejdet af Hjaltelin Stahl. Kampagnen skal få flere danskere til at melde sig ind i kampen mod kræft – og mens der i filmen skrues helt op for følelserne, bliver vi mere faktuelle og handlende på de digitale, sociale og trykte kanaler. Og så introducerer vi en pendant til selfien, nemlig en “osfie”, der deles på #joflerevier."
 billede_1: /images/uploads/jo-flere-vi-er-jo-mere-kan-vi-gre/joflervier-case-01.jpg
 billede_1_link: "http://youtu.be/VgCUMdRmLHQ"
@@ -25,6 +25,6 @@ billede_9_link: null
 billede_10: null
 billede_10_link: null
 cmsUserSlug: ""
-date: 2016-03-07 
+date: 2016-03-07T00:00:00.000Z
 ---
 
