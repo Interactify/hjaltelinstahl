@@ -1,8 +1,8 @@
 ---
 thumbnail: /images/uploads/cases_sydbank_historier01.jpg
-virksomhed: SYDBANK HISTORIER
-type: Crossmedia
-title: SYDBANK HISTORIER
+virksomhed: Sydbank
+type: Sydbank Historier
+title: Sydbank Historier
 beskrivelse: "Sydbank er rigtig glad for tal og endnu gladere for mennesker. Det førte til en crossmedia imagekampagne med en række stærke dokumentarfilm, annoncer, bannere mv. Alt leder ind til kampagnesitet sydbank.dk/historier med længere og endnu flere portrætter og muligheder for skabe en ny bankrelation."
 billede_1: /images/uploads/sydbank-historier/sydbank-case-001.jpg
 billede_1_link: "http://youtu.be/SiTSAB2bOqw"
@@ -25,6 +25,6 @@ billede_9_link: null
 billede_10: null
 billede_10_link: null
 cmsUserSlug: ""
-date: 2016-03-07 
+date: 2016-03-07T00:00:00.000Z
 ---
 
