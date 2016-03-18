@@ -10,7 +10,7 @@ billede_2: /images/uploads/sybank-favorit/skrmbillede-2016-03-18-kl.-13.24.45.pn
 billede_2_link: "https://www.youtube.com/watch?v=UQ9RonyfCXY"
 billede_3: /images/uploads/sybank-favorit/hs_cases_950x550_sydbank_cr.png
 billede_3_link: null
-billede_4: /images/uploads/sydbank-favorit/gx_p6.jpg
+billede_4: null
 billede_4_link: null
 billede_5: null
 billede_5_link: null
