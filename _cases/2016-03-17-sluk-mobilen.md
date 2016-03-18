@@ -7,7 +7,7 @@ beskrivelse: "Med Telias ’sluk mobilen’ biospots fik vi sat fokus på, at li
 billede_1: /images/uploads/sluk-mobilen/skrmbillede-2016-03-17-kl.-13.48.19.png
 billede_1_link: "https://youtu.be/70Ip8aR-gQM"
 billede_2: /images/uploads/sluk-mobilen/skrmbillede-2016-03-17-kl.-13.58.08.png
-billede_2_link: "https://youtu.be/pCQukITSqJ8 "
+billede_2_link: "https://www.youtube.com/watch?v=pCQukITSqJ8"
 billede_3: /images/uploads/sluk-mobilen/skrmbillede-2016-03-17-kl.-13.46.55.png
 billede_3_link: "https://www.youtube.com/watch?v=HNc6_fXKHgk"
 billede_4: /images/uploads/sluk-mobilen/skrmbillede-2016-03-17-kl.-13.41.30.png
@@ -25,6 +25,6 @@ billede_9_link: null
 billede_10: null
 billede_10_link: null
 cmsUserSlug: ""
-date: 2016-03-17 
+date: 2016-03-17T00:00:00.000Z
 ---
 
