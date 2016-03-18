@@ -3,7 +3,8 @@
         <div id="Hello" style="padding-top:82px;">
             <div>
                 <div id="video-gallery" class="royalSlider videoGallery rsDefault rsMinW">
-                    {% for slide in site.carrousel %}
+                    {% assign sorted_carrousel = (site.carrousel | sort: 'position') %}
+                    {% for slide in sorted_carrousel %}
                     <div class="rsContent slide6">
                         <img class="rsImg" src="{{ slide.billede_1 }}" alt="hmm">
                         {% if slide.billede_2 != null %}
