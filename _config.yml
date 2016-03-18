@@ -25,6 +25,8 @@ collections:
     permalink: /news/:title.html
   about:
     output: false
+  contact:
+    output: true
     
 
 
