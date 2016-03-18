@@ -15,7 +15,7 @@
             <div class="container">
                 <div class="row">
                     {% assign sorted_awards = (site.awards | sort: 'position') %}
-                    {% for award in site.awards %}
+                    {% for award in sorted_awards %}
                     <div class="fourcol {% cycle '', '', 'last' %}">
                         <div class="award-logo" style="background-image: url({{award.logo}})"></div>
                         <span class="bgleft">
