@@ -17,18 +17,20 @@ collections:
     folder: "_carrousel"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    sort: "date:desc"
+    sort: "position:asc"
     fields:
       - {label: "Overskrift", name: "title", widget: "string", tagname: "h1", class: "post-title"}
       - {label: "Slider billede", name: "billede_1", widget: "image", tagname: "div", class: "media-img optional cms-thumbnail", folder: "img/posts/thumbnails", optional: true}
       - {label: "Popup billede", name: "billede_2", widget: "image", tagname: "div", class: "media-img optional cms-thumbnail", folder: "img/posts/thumbnails", optional: true}
       - {label: "Link", name: "slidelink", widget: "string", tagname: "p", class: "small muted hidden", optional: true}
+    meta:
+      - {label: "Position", name: "position", widget: "number", optional: false}
   - name: "Cases"
     label: "Cases"
     folder: "_cases"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    sort: "date:desc"
+    sort: "position:asc"
     fields:
       - {label: "Thumbnail", name: "thumbnail", widget: "image", tagname: "div", class: "media-img optional cms-thumbnail hjaltelin-img", folder: "img/posts/thumbnails", optional: true}
       - {label: "Virksomhed", name: "virksomhed", widget: "string", tagname: "h1", class: "post-title"}
@@ -55,25 +57,31 @@ collections:
       - {label: "Billede 9 - YouTube/Vimeo link", name: "billede_9_link", widget: "string", tagname: "h4", class: "post-title", optional: true}
       - {label: "Billede 10", name: "billede_10", widget: "image", tagname: "div", class: "media-img optional cms-thumbnail", folder: "img/posts/thumbnails", optional: true}
       - {label: "Billede 10 - YouTube/Vimeo link", name: "billede_10_link", widget: "string", tagname: "h4", class: "post-title", optional: true}
+    meta:
+      - {label: "Position", name: "position", widget: "number", optional: false}
   - name: "Clients"
     label: "Clients"
     folder: "_referencer"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    sort: "date:desc"
+    sort: "position:asc"
     fields:
       - {label: "logo", name: "logo", widget: "image", tagname: "div", class: "media-img optional cms-thumbnail hjaltelin-ref-logo", folder: "img/posts/thumbnails"}
       - {label: "Reference navn", name: "title", widget: "string", tagname: "h5", class: "post-title"}
+    meta:
+      - {label: "Position", name: "position", widget: "number", optional: false}
   - name: "Awards"
     label: "Awards"
     folder: "_awards"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    sort: "date:desc"
+    sort: "position:asc"
     fields:
       - {label: "logo", name: "logo", widget: "image", tagname: "div", class: "media-img optional cms-thumbnail hjaltelin-ref-logo", folder: "img/posts/thumbnails"}
       - {label: "Titel", name: "title", widget: "string", tagname: "h2", class: "post-title"}
       - {label: "Tekst", name: "tekst", widget: "string", tagname: "h5", class: "post-title"}
+    meta:
+      - {label: "Position", name: "position", widget: "number", optional: false}
   - name: "About"
     label: "About"
     folder: "_about"
@@ -90,7 +98,7 @@ collections:
     folder: "_badges"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    sort: "date:desc"
+    sort: "position:asc"
     fields:
       - {label: "Thumbnail", name: "thumbnail", widget: "image", tagname: "div", class: "media-img optional cms-thumbnail hjaltelin-ref-logo", folder: "img/posts/thumbnails"}
       - {label: "Overskrift - DK", name: "title", widget: "string", tagname: "h2", class: "post-title"}
@@ -104,7 +112,7 @@ collections:
     folder: "_news"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    sort: "date:desc"
+    sort: "position:asc"
     fields:
       - {label: "Overskrift", name: "title", widget: "string", tagname: "h2", class: "post-title"}
       - {label: "Tekst", name: "text", widget: "markdown", tagname: "div", class: "post-bd text", optional: true}
@@ -117,7 +125,7 @@ collections:
     folder: "_contact"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    sort: "date:desc"
+    sort: "position:asc"
     fields:
       - {label: "Navn", name: "title", widget: "string", tagname: "h2", class: "post-title"}
       - {label: "titel", name: "text", widget: "string", tagname: "h5", class: "post-bd text", optional: true}

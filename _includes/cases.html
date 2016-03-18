@@ -12,8 +12,8 @@
     </div>
     <div class="container grid">
         <div class="row">
-            
-            {% for hcase in site.cases reversed %}
+            {% assign sorted_cases = (site.cases | sort: 'position') %}
+            {% for hcase in site.cases cases %}
                 <div class="threecol">
                     <div>
                         <img src="{{ hcase.thumbnail }}" class="{{ hcase.title | slugify }}" alt="{{ hcase.title }}" data-header="{{ hcase.title }}"

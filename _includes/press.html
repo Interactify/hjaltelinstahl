@@ -19,7 +19,7 @@
         </div>
         <div class="moduletable">
             <div class="container newsgrid">
-                
+                {% assign sorted_news = (site.news | sort: 'position') %}
                 {% for new in site.news %}
                     {% cycle '<div class="row">', '', '', '' %}
                     <div class="threecol {% cycle '', '', '', 'last' %}">
