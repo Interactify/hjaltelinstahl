@@ -18,7 +18,7 @@
                 <div class="threecol">
                     <div>
                         <img src="{{ hcase.thumbnail }}" class="{{ hcase.title | slugify }}" alt="{{ hcase.title }}" data-header="{{ hcase.title }}"
-                        data-area="{{ hcase.type }}" data-text="{{ hcase.beskrivelse }}">
+                        data-area="{{ hcase.type }}" data-text="{{ hcase.beskrivelse }}" data-slug="{{ hcase.title | slugify }}" id="{{ hcase.title | slugify }}">
                         <h4>
                             <span class="stregleft">&nbsp;</span>
                             <span class="stregcenter">{{ hcase.virksomhed }}</span>
@@ -80,7 +80,7 @@
     // all variables for the royal slider
     var messages = {
         {% for hcase in site.cases %}
-        '{{ hcase.title | slugify }}': '{% if hcase.billede_1 != null %}<a class="rsImg" data-rsBigImg="{{ hcase.billede_1 }}" href="{{ hcase.billede_1 }}" data-rsVideo="{{ hcase.billede_1_link }}" ></a>{% endif %}{% if hcase.billede_2 != null %}<a class="rsImg" data-rsBigImg="{{ hcase.billede_2 }}" href="{{ hcase.billede_2 }}" data-rsVideo="{{ hcase.billede_2_link }}" ></a>{% endif %}{% if hcase.billede_3 != null %}<a class="rsImg" data-rsBigImg="{{ hcase.billede_3 }}" href="{{ hcase.billede_3 }}" data-rsVideo="{{ hcase.billede_3_link }}" ></a>{% endif %}{% if hcase.billede_4 != null %}<a class="rsImg" data-rsBigImg="{{ hcase.billede_4 }}" href="{{ hcase.billede_4 }}" data-rsVideo="{{ hcase.billede_4_link }}" ></a>{% endif %}{% if hcase.billede_5 != null %}<a class="rsImg" data-rsBigImg="{{ hcase.billede_5 }}" href="{{ hcase.billede_5 }}" data-rsVideo="{{ hcase.billede_5_link }}" ></a>{% endif %}{% if hcase.billede_6 != null %}<a class="rsImg" data-rsBigImg="{{ hcase.billede_6 }}" href="{{ hcase.billede_6 }}" data-rsVideo="{{ hcase.billede_6_link }}" ></a>{% endif %}{% if hcase.billede_7 != null %}<a class="rsImg" data-rsBigImg="{{ hcase.billede_7 }}" href="{{ hcase.billede_7 }}" data-rsVideo="{{ hcase.billede_7_link }}" ></a>{% endif %}{% if hcase.billede_8 != null %}<a class="rsImg" data-rsBigImg="{{ hcase.billede_8 }}" href="{{ hcase.billede_8 }}" data-rsVideo="{{ hcase.billede_8_link }}" ></a>{% endif %}{% if hcase.billede_9 != null %}<a class="rsImg" data-rsBigImg="{{ hcase.billede_9 }}" href="{{ hcase.billede_9 }}" data-rsVideo="{{ hcase.billede_9_link }}" ></a>{% endif %}{% if hcase.billede_10 != null %}<a class="rsImg" data-rsBigImg="{{ hcase.billede_10 }}" href="{{ hcase.billede_10 }}" data-rsVideo="{{ hcase.billede_10_link }}" ></a>{% endif %}',
+        '{{ hcase.title | slugify }}': '{% if hcase.billede_1 != null %}<a class="rsImg" data-rsBigImg="{{ hcase.billede_1 }}" href="{{ hcase.billede_1 }}" data-rsVideo="{{ hcase.billede_1_link }}" ></a>{% endif %}{% if hcase.billede_2 != null %}<a class="rsImg" data-rsBigImg="{{ hcase.billede_2 }}" href="{{ hcase.billede_2 }}" data-slug="{{ hcase.title | slugify }}" data-rsVideo="{{ hcase.billede_2_link }}" ></a>{% endif %}{% if hcase.billede_3 != null %}<a class="rsImg" data-rsBigImg="{{ hcase.billede_3 }}" href="{{ hcase.billede_3 }}" data-rsVideo="{{ hcase.billede_3_link }}" ></a>{% endif %}{% if hcase.billede_4 != null %}<a class="rsImg" data-rsBigImg="{{ hcase.billede_4 }}" href="{{ hcase.billede_4 }}" data-rsVideo="{{ hcase.billede_4_link }}" ></a>{% endif %}{% if hcase.billede_5 != null %}<a class="rsImg" data-rsBigImg="{{ hcase.billede_5 }}" href="{{ hcase.billede_5 }}" data-rsVideo="{{ hcase.billede_5_link }}" ></a>{% endif %}{% if hcase.billede_6 != null %}<a class="rsImg" data-rsBigImg="{{ hcase.billede_6 }}" href="{{ hcase.billede_6 }}" data-rsVideo="{{ hcase.billede_6_link }}" ></a>{% endif %}{% if hcase.billede_7 != null %}<a class="rsImg" data-rsBigImg="{{ hcase.billede_7 }}" href="{{ hcase.billede_7 }}" data-rsVideo="{{ hcase.billede_7_link }}" ></a>{% endif %}{% if hcase.billede_8 != null %}<a class="rsImg" data-rsBigImg="{{ hcase.billede_8 }}" href="{{ hcase.billede_8 }}" data-rsVideo="{{ hcase.billede_8_link }}" ></a>{% endif %}{% if hcase.billede_9 != null %}<a class="rsImg" data-rsBigImg="{{ hcase.billede_9 }}" href="{{ hcase.billede_9 }}" data-rsVideo="{{ hcase.billede_9_link }}" ></a>{% endif %}{% if hcase.billede_10 != null %}<a class="rsImg" data-rsBigImg="{{ hcase.billede_10 }}" href="{{ hcase.billede_10 }}" data-rsVideo="{{ hcase.billede_10_link }}" ></a>{% endif %}',
         {% endfor %}
     }
     
@@ -104,39 +104,50 @@
         
         // find which slider to open and close any other
         if($(dropdown).is(':hidden')) {
+            console.log(this);
+            
+            // push state to history
+            history.pushState(null, null, '#'+$(this).data("slug"));
+            
             $('.dropdownslider').removeClass('active')
             if(!$(dropdown).hasClass('active')) {				
                 $('.dropdownslider').slideUp(300)
-                    }
-                $(dropdown).slideDown(300),
-                $(dropdown).addClass('active')
-                $(dropdown).queue( function () {
+            }
+            
+            $(dropdown).slideDown(300),
+            $(dropdown).addClass('active')
+            $(dropdown).queue( function () {
                 $viewport.animate({
                     scrollTop: 
                     $(scrollelement).offset().top -82
                 }, timeripad);
-            $viewport.bind("scroll mousedown DOMMouseScroll mousewheel keyup", function(e){
-            if ( e.which > 0 || e.type === "mousedown" || e.type === "mousewheel"){
-                $viewport.stop().unbind('scroll mousedown DOMMouseScroll mousewheel keyup'); 
-            }
-            });    
-            $( this ).dequeue(); 
+                $viewport.bind("scroll mousedown DOMMouseScroll mousewheel keyup", function(e){
+                    if ( e.which > 0 || e.type === "mousedown" || e.type === "mousewheel"){
+                    $viewport.stop().unbind('scroll mousedown DOMMouseScroll mousewheel keyup'); 
+                    }
+                });    
+                $( this ).dequeue(); 
             });
         } else {
+            // push state to history
+            history.pushState(null, null, '#'+$(this).data("slug"));
+            
+            
             $('.dropdownslider').removeClass('active')
-                $(dropdown).slideDown(300),
-                $(dropdown).addClass('active')
-                $(dropdown).queue( function () {
+            
+            $(dropdown).slideDown(300),
+            $(dropdown).addClass('active')
+            $(dropdown).queue( function () {
                 $viewport.animate({
                     scrollTop: 
                     $(scrollelement).offset().top -82
                 }, timeripad);
-            $viewport.bind("scroll mousedown DOMMouseScroll mousewheel keyup", function(e){
-            if ( e.which > 0 || e.type === "mousedown" || e.type === "mousewheel"){
-                $viewport.stop().unbind('scroll mousedown DOMMouseScroll mousewheel keyup'); 
-            }
-            });    
-            $( this ).dequeue(); 
+                $viewport.bind("scroll mousedown DOMMouseScroll mousewheel keyup", function(e){
+                    if ( e.which > 0 || e.type === "mousedown" || e.type === "mousewheel"){
+                        $viewport.stop().unbind('scroll mousedown DOMMouseScroll mousewheel keyup'); 
+                    }
+                });    
+                $( this ).dequeue(); 
             });
         }
         
@@ -181,4 +192,14 @@
         });
         
 	});
+    
+    
+    // when everything has loaded check for hashvalue and open the case
+    $(function(){
+        var openCase = window.location.hash.substr(1);
+        if (openCase){
+            $('#'+openCase).click();
+        }
+    })
+    
 </script>
