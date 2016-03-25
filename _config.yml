@@ -27,7 +27,8 @@ collections:
     output: false
   contact:
     output: true
-    
+  social:
+    output: false
 
 
 defaults:
