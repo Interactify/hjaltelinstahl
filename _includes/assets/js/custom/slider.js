@@ -1,11 +1,11 @@
-jQuery(document).ready(function($) {
-	var pageheight = $(window).height();
-		$('#video-gallery').css('height', pageheight - 282);
-		$(window).resize(function(){
-		var pageheight = $(window).height();
-		$('#video-gallery').css('height', pageheight - 282);
-	});	
-});
+// jQuery(document).ready(function($) {
+// 	var pageheight = $(window).height();
+// 		$('#video-gallery').css('height', pageheight - 282);
+// 		$(window).resize(function(){
+// 		var pageheight = $(window).height();
+// 		$('#video-gallery').css('height', pageheight - 282);
+// 	});	
+// });
 
 jQuery(document).ready(function($) {
   $('#video-gallery').royalSlider({
