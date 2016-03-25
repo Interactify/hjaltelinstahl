@@ -5,6 +5,6 @@ link: "http://markedsforing.dk/artikler/kampagner/de-hjeml-se-er-i-biografen"
 newpage: null
 cmsUserSlug: ""
 date: 2016-03-08T00:00:00.000Z
-position: null
+position: 10
 ---
 
