@@ -94,7 +94,7 @@ collections:
       - {label: "Overskrift - UK", name: "titleuk", widget: "string", tagname: "h2", class: "post-title"}
       - {label: "About - UK", name: "aboutuk", widget: "markdown", tagname: "div", class: "post-bd text", optional: true}
   - name: "AboutBadges"
-    label: "About Badges"
+    label: "Kompetencer"
     folder: "_badges"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
