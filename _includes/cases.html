@@ -14,6 +14,7 @@
         <div class="row">
             {% assign sorted_cases = (site.cases | sort: 'position') %}
             {% for hcase in sorted_cases %}
+                {% if hcase.deactivate != true %}
                 <div class="threecol">
                     <div>
                         <img src="{{ hcase.thumbnail }}" class="{{ hcase.title | slugify }}" alt="{{ hcase.title }}" data-header="{{ hcase.title }}"
@@ -46,6 +47,7 @@
                         </div>
                     </div><div class="container grid"><div class="row">'
                 %}
+                {% endif %}
             {% endfor %}
         
         
