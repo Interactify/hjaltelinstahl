@@ -11,14 +11,15 @@
         </div>
     </div>
     <div class="container grid">
-        <div class="row">
+        
             {% assign sorted_cases = (site.cases | sort: 'position') %}
             {% for hcase in sorted_cases %}
                 {% if hcase.deactivate != true %}
-                <div class="threecol">
+                {% cycle 'csrow': '<div class="row">','','','' %}
+                <div class="threecol {% cycle 'clrow': '','','','last' %}">
                     <div>
                         <img src="{{ hcase.thumbnail }}" class="{{ hcase.title | slugify }}" alt="{{ hcase.title }}" data-header="{{ hcase.title }}"
-                        data-area="{{ hcase.type }}" data-text="{{ hcase.beskrivelse }}" data-slug="{{ hcase.title | slugify }}" id="{{ hcase.title | slugify }}">
+                        data-area="{{ hcase.type }}" data-text="{{ hcase.beskrivelse }}" data-slug="{{ hcase.id | slugify }}" id="{{ hcase.id | slugify }}">
                         <h4>
                             <span class="stregleft">&nbsp;</span>
                             <span class="stregcenter">{{ hcase.virksomhed }}</span>
@@ -27,7 +28,8 @@
                         <p>{{ hcase.type }}</p>
                     </div>
                 </div>
-                {% cycle '', '', '', '
+                {% cycle 'mobile': '', '<div class="Mobileclearfix"></div>' %}
+                {% cycle 'cslider': '', '', '', '
                     </div></div><div class="container dropdownslider" style="display:none;">
                         <div class="hey">
                             <img src="images/close.png" class="close" alt="close">
@@ -47,6 +49,7 @@
                         </div>
                     </div><div class="container grid"><div class="row">'
                 %}
+                {% cycle 'cerow': '','','','</div>' %}
                 {% endif %}
             {% endfor %}
         
@@ -104,7 +107,6 @@
         
         // find which slider to open and close any other
         if($(dropdown).is(':hidden')) {
-            console.log(this);
             
             // push state to history
             history.pushState(null, null, '#'+$(this).data("slug"));
