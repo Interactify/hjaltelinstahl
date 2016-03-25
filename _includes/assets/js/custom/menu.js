@@ -14,6 +14,10 @@ jQuery(document).ready(function(){
 				$(this).find('span').text('Luk igen');
 		}	
 	});
+    
+    $('#responsive-menu-button').click(function(){
+        $('#sidr-main').toggleClass('show-menu');
+    });
 });
 
 if (Modernizr.touch){
@@ -112,4 +116,80 @@ $(function(){
     str = str.replace(/(?:\r\n|\r|\n)/g, '<br />');
     $(tag).html(str);
     })
+    
+    // remove mobile menu
+    $('.sidr-inner a').click(function(){
+        $('#sidr-main').removeClass('show-menu');
+    })
 })
+	
+// (function($){
+//   // get hash value
+// 		$(window).on('hashchange', function() {
+// 		 var hash = window.location.hash;
+// 		  // now scroll to element with that id
+// 		  $('html, body').animate({ scrollTop: $(hash).offset().top -82 });
+// 		});
+// })(jQuery);
+
+// jQuery(document).ready(function($) {
+// var hash = window.location.hash;
+// var newhash = hash.substr(1,99);
+// 	if (newhash.length) {
+// 	if ( $(".grid img").hasClass(newhash) ){
+// 		$(".grid img."+newhash).trigger("click");
+// 	}else{
+// 		$("a[href='"+hash+"']").trigger("click");
+// 	}
+// 	}
+// });
+
+
+
+
+
+// var userFeed = new Instafeed({
+//         get: 'user',
+//         links: true,
+//         template: '<div id="nummer{{denklasse}}" class="nummer"><img src="{{image}}" /><div class="caption"><a href="{{link}}" target="_blank">{{caption}}</a></div></div>',
+//         userId: 547295039,
+//         accessToken: '547295039.467ede5.773f699b58ee49589804f9eaf9afd062',
+//         after: function () {
+// 	      	var divs = $("#instafeed > div");
+// 	      	for(var i = 0; i < divs.length; i+=5) {
+// 	        divs.slice(i, i+5).wrapAll("<div class='test new"+i+"'></div>");
+//       }
+//       $(".test").on( "click", ".nummer", function(event) {
+//       if (!$(this).hasClass("aktiv")) {
+//       $('.nummer').removeClass('aktiv');
+//         var b0 = $(this).clone().addClass('aktiv');
+//         b0.prependTo($(this).parent());
+//         $(this).remove();
+//         $(this).unbind('click'); 
+//         }
+//       });
+
+    
+//     }
+     
+//     })
+//     userFeed.run();
+    
+//     (function($){
+//       $(window).load(function(){
+//         $("#instacontainer").mCustomScrollbar({
+//           mouseWheel:false,
+//           scrollButtons:{
+//             enable:false,
+//             scrollSpeed: "auto"
+//           },
+//           autoHideScrollbar:true,
+//           horizontalScroll:true,
+//           advanced:{
+//             autoExpandHorizontalScroll:true
+//           }
+//         });
+//       });
+//     })(jQuery);
+
+
