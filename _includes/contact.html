@@ -31,19 +31,18 @@
                         {% cycle 'pendrow': '','','','</div>' %}
                     {% endfor %}
                     
-                    {% assign sorted_social = (site.social | sort: 'position') %}
-                    {% for social in sorted_social %}
-                        <div class="row share">
-                            <div class="twelvecol">
-                                <div class="sharewrapper">
+                    
+                    <div class="row share">
+                        <div class="twelvecol">
+                            <div class="sharewrapper">
+                                {% assign sorted_social = (site.social | sort: 'position') %}
+                                {% for social in sorted_social %}
                                     <a href="http://www.youtube.com/HjaltelinStahl" class="youtube" target="_blank" rel="nofollow">Youtube</a>
-                                    <a
-                                    href="https://www.facebook.com/HjaltelinStahl" target="_blank" class="facebook" rel="nofollow">Facebook</a><a href="http://www.linkedin.com/company/hjaltelin-stahl" target="_blank" class="linkdin"
-                                        rel="nofollow">Linkdin</a>
-                                </div>
+                                {% endfor %}
                             </div>
                         </div>
-                    {% endfor %}
+                    </div>
+                    
                 
                 <div class="row share">
                     <div class="twelvecol">
