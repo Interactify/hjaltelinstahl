@@ -1,7 +1,7 @@
 ---
-title: 2 NYE PARTNERE I HJALTELIN STAHL DIRECT
-text: Dermed kommer Hjaltelin Stahl Direct op på fire partnere. Samlet kommer partnerkredsen i Hjaltelin Stahl gruppen op på 10.
-link: "http://www.bureaubiz.dk/Nyheder/Artikler/2015/Uge-50/2-nye-partnere-i-Hjaltein-Stahl-Direct"
+title: 3 BUREAUER HJALP ORKLA MED MED ÅRETS BEDSTE LANCERING
+text: Nielsen har kåret årets bedste lancering på dagligvaremarkedet. Produktet var medvirkende til at booste sin kategori
+link: "http://www.bureaubiz.dk/Nyheder/Artikler/2016/Uge-10/2-bureauer-hjalp-Orkla-med-aarets-bedste-lancering"
 newpage: null
 cmsUserSlug: ""
 date: 2016-03-08T00:00:00.000Z

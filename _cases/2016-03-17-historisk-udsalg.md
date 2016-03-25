@@ -3,7 +3,7 @@ thumbnail: /images/uploads/skrmbillede-2016-03-17-kl.-15.39.00.png
 virksomhed: Synoptik
 type: Historisk Udsalg
 title: Historisk Udsalg
-beskrivelse: null
+beskrivelse: "I januar 2016 var det 85 år siden, at Synoptik slog dørene op for den allerførste butik i Nørregade. Det har inspireret Hjaltelin Stahl til at lave kampagnen ”Historisk udsalg”, der på print og TV byder på et nostalgisk tilbageblik på kædens stolte historie. Brillemoden, frisurerne og måden at vise følelser på har unægteligt ændret sig siden 1931, men at se kunderne løfte blikket til et nyt skarpt syn, er stadig lige fantastisk. \n\n"
 billede_1: /images/uploads/historisk-udsalg/skrmbillede-2016-03-17-kl.-15.39.57.png
 billede_1_link: "https://www.youtube.com/watch?v=TAGZ_jZgDPc"
 billede_2: /images/uploads/historisk-udsalg/hs_cases_950x550_synoptik_cr.png
@@ -26,6 +26,9 @@ billede_10: null
 billede_10_link: null
 cmsUserSlug: ""
 date: 2016-03-17T00:00:00.000Z
+<<<<<<< HEAD
 position: 180
+=======
+>>>>>>> aefdc5c53fe65a9ef7e9afb85d146e2d0fac3618
 ---
 

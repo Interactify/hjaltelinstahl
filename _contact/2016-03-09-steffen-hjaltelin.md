@@ -1,8 +1,8 @@
 ---
 title: STEFFEN HJALTELIN
 text: "CEO & Sr Partner"
-link: null
-email: null
+link: +45 - 60107770
+email: "sh@hjaltelinstahl.com"
 white: false
 cmsUserSlug: ""
 date: 2016-03-09T00:00:00.000Z
