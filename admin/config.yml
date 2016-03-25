@@ -59,6 +59,7 @@ collections:
       - {label: "Billede 10 - YouTube/Vimeo link", name: "billede_10_link", widget: "string", tagname: "h4", class: "post-title", optional: true}
     meta:
       - {label: "Position", name: "position", widget: "number", optional: false}
+      - {label: "Deaktiver", name: "deactivate", widget: "checkbox", tagname: "checkbox", class: "post-bd muted hidden", optional: false}
   - name: "Clients"
     label: "Clients"
     folder: "_referencer"
