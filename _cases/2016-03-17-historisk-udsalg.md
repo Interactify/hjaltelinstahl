@@ -26,9 +26,5 @@ billede_10: null
 billede_10_link: null
 cmsUserSlug: ""
 date: 2016-03-17T00:00:00.000Z
-<<<<<<< HEAD
 position: 180
-=======
->>>>>>> aefdc5c53fe65a9ef7e9afb85d146e2d0fac3618
----
 
