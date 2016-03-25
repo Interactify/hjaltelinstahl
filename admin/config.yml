@@ -141,7 +141,7 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     sort: "position:asc"
     fields:
-      - {label: "Navn", name: "navn", widget: "string", tagname: "h2", class: "post-title"}
+      - {label: "Navn", name: "title", widget: "string", tagname: "h2", class: "post-title"}
       - {label: "logo", name: "logo", widget: "image", tagname: "div", class: "media-img optional cms-thumbnail hjaltelin-ref-logo", folder: "img/posts/thumbnails"}
       - {label: "link", name: "link", widget: "string", tagname: "h5", class: "post-bd text"}
     meta:
