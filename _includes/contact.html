@@ -15,7 +15,7 @@
             <div class="container people">
                     {% assign sorted_contact = (site.contact | sort: 'position') %}
                     {% for person in sorted_contact %}
-                        {% cycle '<div class="row">','','','' %}
+                        {% cycle 'persons': '<div class="row">','','','' %}
                         <div class="threecol {% if person.white %}white{% endif %} {% cycle '','','','last'%}">
                             <span class="bgleft">
                             <span class="bgright">
@@ -27,8 +27,8 @@
                             <div class="Cmail"><a href="mailto:{{ person.email }}" title="Send mig en mail">{{ person.email }}</a>
                             </div>
                         </div>
-                        {% cycle '', '<div class="Mobileclearfix"></div>' %}
-                        {% cycle '','','','</div>' %}
+                        {% cycle 'pclearfix': '', '<div class="Mobileclearfix"></div>' %}
+                        {% cycle 'pendrow': '','','','</div>' %}
                     {% endfor %}
                     
 
