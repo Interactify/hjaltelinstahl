@@ -6,7 +6,7 @@
                     {% assign sorted_carrousel = (site.carrousel | sort: 'position') %}
                     {% for slide in sorted_carrousel %}
                     <div class="rsContent slide6">
-                        <img class="rsImg" src="{{ slide.billede_1 }}" alt="hmm">
+                        <a href="{{ slide.slidelink }}" target="_blank" rel="nofollow"><img class="rsImg" src="{{ slide.billede_1 }}" alt="hmm"></a>
                         {% if slide.billede_2 != null %}
                         <div class="bContainer">
                             <span class="rsABlock txtCent" data-move-effect="bottom" data-delay="500" data-move-offset="700" data-fade-effect="none">
