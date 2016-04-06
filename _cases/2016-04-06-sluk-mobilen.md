@@ -5,13 +5,13 @@ type: Sluk Mobilen
 title: Sluk Mobilen
 beskrivelse: "Med Telias ’sluk mobilen’ biospots fik vi sat fokus på, at livet krævet et godt netværk – MEN at der skal være tid og plads til ro og fordybelse. F.eks. er det god stil at være offline, når du går i biografen. "
 billede_1: /images/uploads/sluk-mobilen/skrmbillede-2016-04-06-kl.-12.59.21.png
-billede_1_link: "https://www.youtube.com/watch?v=70Ip8aR-gQM"
-billede_2: null
-billede_2_link: null
-billede_3: null
-billede_3_link: null
-billede_4: null
-billede_4_link: null
+billede_1_link: "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/70Ip8aR-gQM?rel=0\" frameborder=\"0\" allowfullscreen></iframe>"
+billede_2: /images/uploads/sluk-mobilen/skrmbillede-2016-04-06-kl.-13.10.22.png
+billede_2_link: "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/pCQukITSqJ8?rel=0\" frameborder=\"0\" allowfullscreen></iframe>"
+billede_3: /images/uploads/sluk-mobilen/skrmbillede-2016-04-06-kl.-13.12.07.png
+billede_3_link: "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/aoRxI3mFvjI?rel=0\" frameborder=\"0\" allowfullscreen></iframe>"
+billede_4: /images/uploads/sluk-mobilen/skrmbillede-2016-04-06-kl.-13.13.16.png
+billede_4_link: "<iframe width=\"1280\" height=\"720\" src=\"https://www.youtube.com/embed/HNc6_fXKHgk?rel=0\" frameborder=\"0\" allowfullscreen></iframe>"
 billede_5: null
 billede_5_link: null
 billede_6: null
