@@ -21,8 +21,8 @@
             <div class="container newsgrid">
                 {% assign sorted_news = (site.news | sort: 'position') %}
                 {% for new in sorted_news %}
-                    {% cycle '<div class="row">', '', '', '' %}
-                    <div class="threecol {% cycle '', '', '', 'last' %}">
+                    {% cycle 'csrow': '<div class="row">', '', '', '' %}
+                    <div class="threecol {% cycle 'cslast': '', '', '', 'last' %}">
                         <div class="inside">
                             <h4>{{new.title}}</h4>
                             <p>{{new.text}}</p>
@@ -30,8 +30,8 @@
                             </p>
                         </div>
                     </div>
-                    {% cycle '','<div class="Mobileclearfix"></div>','','' %}
-                    {% cycle '','','','</div>' %}
+                    {% cycle 'csmobile': '','<div class="Mobileclearfix"></div>','','' %}
+                    {% cycle 'csend': '','','','</div>' %}
                 {% endfor %}
                     
                     
