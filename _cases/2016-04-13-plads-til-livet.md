@@ -26,7 +26,7 @@ billede_10: null
 billede_10_link: null
 cmsUserSlug: ""
 date: 2016-04-13 
-position: null
+position: 1
 deactivate: null
 ---
 
