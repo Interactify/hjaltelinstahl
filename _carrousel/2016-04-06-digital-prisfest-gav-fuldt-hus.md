@@ -5,6 +5,6 @@ billede_2: null
 slidelink: "http://www.bureaubiz.dk/Nyheder/Artikler/2016/Uge-9/3-reklamebureauer-og-1-dialogbureau-til-tops-ved-Digital-Award"
 cmsUserSlug: ""
 date: 2016-04-06T00:00:00.000Z
-position: 3
+position: 4
 ---
 
