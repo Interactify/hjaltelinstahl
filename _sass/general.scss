@@ -1,0 +1,51 @@
+#newsletter {
+	background: url("../lauritzz/img/bgnewsletter.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	height: 94px;
+	margin: 0 auto;
+	padding-bottom: 50px;
+	position: relative;
+	width: 338px;
+    font-family: BrandonText-Regular, Verdana, Geneva, sans-serif;
+}
+.success {
+    font-family: BrandonText-Regular, Verdana, Geneva, sans-serif;
+}
+#newsletter p {
+color: #FFF;
+text-transform: uppercase;
+letter-spacing: 1px;
+padding: 10px 0 0 45px;
+font-size: 14px;
+}
+
+#newsletter form input.emailadress {
+width: 144px;
+position: absolute;
+left: 48px;
+top: 45px;
+background: transparent;
+border: none;
+padding:0 5px;
+color:#fff;
+font-family:'BrandonText-LightItalic';
+font-size: 14px;
+
+}
+#newsletter form input.emailadress:focus {
+outline:none;
+
+}	
+#newsletter form input.button {
+background: url('../lauritzz/img/control_play.png') no-repeat;
+width: 20px;
+border: none;
+position: absolute;
+right: 100px;
+top: 48px;
+cursor: pointer;
+text-indent: -9999px;
+}
+#newsletter form input.button:hover {
+background: url('../lauritzz/img/control_play_orange.png') no-repeat;
+-webkit-transform:scale(1.1);
+}
