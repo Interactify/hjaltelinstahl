@@ -4,7 +4,7 @@ text: "Men de to koncepter kan ikke sammenlignes. Kvalitetstestet af hverdagen v
 link: "http://www.bureaubiz.dk/Nyheder/Artikler/2016/Uge-14/Ikea-Plads-til-livet-erstatter-Kvalitetstestet-af-hverdagen"
 newpage: null
 cmsUserSlug: ""
-date: 2016-04-12 
-position: null
+date: 2016-04-12T00:00:00.000Z
+position: 2
 ---
 
