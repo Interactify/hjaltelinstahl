@@ -47,6 +47,11 @@
     .socialcontent {
     font-size: 120%;
     }
+    .center-news {
+        max-width: 800px;
+        text-align: center;
+        margin: auto;
+    }
   </style>
   <body style="background-color: #f04e29">
 
@@ -69,10 +74,12 @@
     <section>
     <div class="container socialcontent">
         <div class="row">
-           <div class="sixcol">
-              {% if page.newpage %}
-              {{ page.newpage | markdownify }}
-              {% endif %}
+           <div class="twelvecol">
+               <div class="center-news">
+                   {% if page.newpage %}
+                    {{ page.newpage | markdownify }}
+                    {% endif %}
+               </div>
            </div>
 <!--           
             <div align="left" class="sixcol last">
