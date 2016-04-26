@@ -118,6 +118,7 @@ collections:
       - {label: "Overskrift", name: "title", widget: "string", tagname: "h2", class: "post-title"}
       - {label: "Tekst", name: "text", widget: "markdown", tagname: "div", class: "post-bd text", optional: true}
       - {label: "Link", name: "link", widget: "string", tagname: "h5", class: "post-bd text", optional: true}
+      - {label: "Billede til egen side", name: "newpageimage", widget: "image", tagname: "div", class: "media-img optional cms-thumbnail", folder: "img/news", optional: true}
       - {label: "Tekst til egen side", name: "newpage", widget: "markdown", tagname: "div", class: "post-bd text", optional: true}
     meta:
       - {label: "Position", name: "position", widget: "number", optional: false}
