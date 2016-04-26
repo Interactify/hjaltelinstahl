@@ -61,6 +61,9 @@
         <div class="container headerline" style="margin-top:100px;margin-bottom:30px;">
             <div class="row">
                 <div class="twelvecol">
+                {% if page.newpageimage %}
+                    <img src="{{ page.newpageimage }}" alt="{{ page.title }}" width="100%">
+                {% endif %}
                 <h1>
                     <span class="stregleft">&nbsp;</span>
                     <span class="stregcenter">{{ page.title }}</span> 
@@ -78,7 +81,7 @@
                <div class="center-news">
                    {% if page.newpage %}
                     {{ page.newpage | markdownify }}
-                    {% endif %}
+                   {% endif %}
                </div>
            </div>
 <!--           
