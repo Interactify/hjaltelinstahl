@@ -1,8 +1,8 @@
 ---
-title: "Ude godt, men hjemme bedst"
-billede_1: /images/uploads/top_nyheder_1650x800_martinmohr.jpg
-billede_2: null
-slidelink: "http://www.bureaubiz.dk/Nyheder/Artikler/2016/Uge-10/Hjaltelin-Stahl-opruster-med-ny-topkreativ"
+title: Mere at sige ja til
+billede_1: /images/uploads/mere-at-sige-ja-til/1650x800_telia.jpg
+billede_2: /images/uploads/mere-at-sige-ja-til/telia_tekst.png
+slidelink: "http://markedsforing.dk/artikler/kampagner/telia-skifter-stil"
 cmsUserSlug: ""
 date: 2016-04-06T00:00:00.000Z
 position: 3
