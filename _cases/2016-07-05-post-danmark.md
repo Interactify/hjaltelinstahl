@@ -7,7 +7,7 @@ beskrivelse: ""
 billede_1: /images/uploads/post-danmark/skrmbillede-2016-07-05-kl.-14.18.49.png
 billede_1_link: "https://www.youtube.com/watch?v=3dMYXBcWMzU"
 billede_2: /images/uploads/post-danmark/skrmbillede-2016-07-05-kl.-14.21.41.png
-billede_2_link: null
+billede_2_link: "https://www.youtube.com/watch?v=Rf6a4bvydyA"
 billede_3: /images/uploads/post-danmark/skrmbillede-2016-07-05-kl.-14.33.44.png
 billede_3_link: "https://www.youtube.com/watch?v=eK7eQFnd10U"
 billede_4: null
@@ -25,7 +25,7 @@ billede_9_link: null
 billede_10: null
 billede_10_link: null
 cmsUserSlug: ""
-date: 2016-07-05 
+date: 2016-07-05T00:00:00.000Z
 position: 0
 deactivate: null
 ---
