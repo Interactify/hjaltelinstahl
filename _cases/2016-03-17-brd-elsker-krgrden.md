@@ -2,7 +2,7 @@
 thumbnail: /images/uploads/skrmbillede-2016-03-17-kl.-11.11.09.png
 virksomhed: Kærgården
 type: Brød elsker Kærgården
-title: Brød elsker Kærgården
+title: Kærgården
 beskrivelse: "Historien om brød, der elsker Kærgården har været en del af brandets arv helt fra begyndelsen. I en ny cross media kampagne genoplivede vi de populære, forelskede brødfigurer. Denne gang spilles hovedrollen af croissanten Frederik, som kæmper med en uimodståelig trang til Kærgårdens silkebløde og cremede konsistens i en sådan grad, at han er gået i terapi. Og hvem kan bebrejde ham det? Kærgåden er enkelnydelse med en naturlig smag skabt af smør, gylden rapsolie og en smule salt – alle brøds favorit.\n\n"
 billede_1: /images/uploads/skrmbillede-2016-03-17-kl.-11.12.29.png
 billede_1_link: "https://www.youtube.com/watch?v=pPHZ66DsnE0"
