@@ -1,8 +1,8 @@
 ---
 thumbnail: /images/uploads/mere-at-sige-ja-til/skrmbillede-2016-04-15-kl.-13.05.21.png
-virksomhed: TELIA
+virksomhed: Telia
 type: Mere at sige ja til
-title: TELIA
+title: Telia
 beskrivelse: "Telias nye imagefilm viser, at livet er sjovere, når man siger mere ja end nej.\nDet handler om at gribe mulighederne, både når det gælder hverdagssituationer og de mange nye digitale muligheder. Og hos Telia hjælper vi danskerne med at få mest muligt ud af deres digitale liv med fede tjenester, fine fordele, god service og valgfrihed – på Nordens bedste Netværk. Kort sagt – så har vi mere at sige ja til.​"
 billede_1: /images/uploads/mere-at-sige-ja-til/skrmbillede-2016-04-15-kl.-13.01.54.png
 billede_1_link: "https://www.youtube.com/watch?v=oXYJjTzaGkU"
