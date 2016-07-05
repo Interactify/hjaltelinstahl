@@ -2,7 +2,7 @@
 thumbnail: /images/uploads/drikkepres-eksperimentet/thumbnail1.png
 virksomhed: Kræftens Bekæmpelse
 type: Drikkepres Eksperimentet
-title: Drikkepres Eksperimentet
+title: "Kræftens Bekæmpelse & Trygfonden"
 beskrivelse: "En ud af fire, i alderen 15-25 år, har prøvet at blive presset til at drikke alkohol af deres venner. Vores opgave var at italesætte problemet i øjenhøjde med målgruppen. Derfor satte vi en ung mand på en svær, men seværdig opgave: Sig nej tilalkohol – en hel aften – i selskab med dine bedste venner, og lad os se, hvad der sker. For at dokumentere vennernes reaktion, fulgte vi dem med skjult kamera – lige fra opvarmningen til dagen derpå. Resultatet skabte stor debat blandt de unge på de sociale medier, takket være den virale film, som du kan se lige her.\n\n"
 billede_1: /images/uploads/drikkepres-eksperimentet/thumbnail.jpeg
 billede_1_link: "https://www.youtube.com/watch?v=6azasPImA2g&rel=0"
