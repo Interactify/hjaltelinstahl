@@ -2,7 +2,7 @@
 thumbnail: /images/uploads/atp-kendskabskampagne/casethumb_volapyk.jpg
 virksomhed: ATP
 type: Kendskabskampagne
-title: ATP kendskabskampagne
+title: ATP
 beskrivelse: null
 billede_1: /images/uploads/atp-kendskabskampagne/volapyk-case-01.jpg
 billede_1_link: "http://youtu.be/8Ueqr--AQfw"
