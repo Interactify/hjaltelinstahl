@@ -2,7 +2,7 @@
 thumbnail: /images/uploads/bacon-flipper/thumbnail1.png
 virksomhed: Buko
 type: Bacon Flipper
-title: Bacon Flipper
+title: Buko
 beskrivelse: "Da Buko® BaconOstblev lanceret tilbage i 2015 skulle den sælges til unge, saltsultne mænd. En målgruppe, som normalt ikke rammes af Bukos kommunikation. Så i stedet for kun at tale til deres hungrende maver, besluttede vi os for at gå mere digitalt tilværks og fange opmærksomheden fra deres indre gamer. Resultatet blev til verdens sprødeste mobilspil: Bacon Flipper.\n\nEt site, der ved hjælp af mobile enheders gyroskop og accelerometer, forvandler din telefon tilen sydende stegepande. Her skal du stege og vende bacon til perfektion og optjene sprøde point undervejs i forsøget på at slå dine venner i kunsten at vende bacon. Det forventede salg af produktet blev mere end fordoblet og gjorde BaconOst til Bukos sprødeste produktlancering nogensinde.\n\n"
 billede_1: /images/uploads/bacon-flipper/skrmbillede-2016-03-16-kl.-15.32.36.png
 billede_1_link: "https://www.youtube.com/watch?v=nno0bIaj6q8"
