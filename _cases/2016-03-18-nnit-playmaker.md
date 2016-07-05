@@ -2,7 +2,7 @@
 thumbnail: /images/uploads/nnit-playmaker/thumbnail_nnit.png
 virksomhed: NNIT
 type: NNIT Playmaker
-title: NNIT Playmaker
+title: NNIT
 beskrivelse: "NNIT Playmaker er Utility Marketing designet til landets mest indflydelsesrige CIOs. En fysisk taktiktavle danner grundlag for relationsudvidende møder, der naturligt bringer outsourcing i spil og skaber imponerende resultater for NNIT. "
 billede_1: /images/uploads/nnit-playmaker/skrmbillede-2016-03-18-kl.-14.38.44.png
 billede_1_link: "https://www.youtube.com/watch?v=VAoqo5R6V-w"
