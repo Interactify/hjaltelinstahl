@@ -6,7 +6,7 @@ title: Post Danmark
 beskrivelse: ""
 billede_1: /images/uploads/post-danmark/skrmbillede-2016-07-05-kl.-14.18.49.png
 billede_1_link: "https://www.youtube.com/watch?v=3dMYXBcWMzU"
-billede_2: /images/uploads/post-danmark/skrmbillede-2016-07-05-kl.-14.21.41.png
+billede_2: /images/uploads/skrmbillede-2016-07-05-kl.-15.07.21.png
 billede_2_link: "https://www.youtube.com/watch?v=Rf6a4bvydyA"
 billede_3: /images/uploads/post-danmark/skrmbillede-2016-07-05-kl.-14.33.44.png
 billede_3_link: "https://www.youtube.com/watch?v=eK7eQFnd10U"
