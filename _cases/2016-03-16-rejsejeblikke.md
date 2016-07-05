@@ -2,7 +2,7 @@
 thumbnail: /images/uploads/rejsejeblikke/thumbnail.png
 virksomhed: Københavns Lufthavne
 type: Rejseøjeblikke
-title: "Rejseøjeblikke "
+title: Københavns Lufthavne
 beskrivelse: "Det handler om de små øjeblikke. Hver dag i Københavns Lufthavne mødes mennesker fra nær og fjern og med hver deres historie og hver deres rejseøjeblik. Denne helt særlige stemning ønskede Københavns Lufthavne og Hjaltelin Stahl at sætte fokus på. Vi valgte derfor at lade Christiane Schaumburg-Müller, Rune Glifberg, Nicolai Nørgaard og Emma Leth dele deres egne CPH rejseøjeblikke i #CPHairport."
 billede_1: /images/uploads/rejsejeblikke/skrmbillede-2016-03-16-kl.-16.16.47.png
 billede_1_link: "https://www.youtube.com/watch?v=v_P0UflTlug"
