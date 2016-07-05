@@ -2,7 +2,7 @@
 thumbnail: /images/uploads/casethumb_postdanmark.jpg
 virksomhed: Post Danmark
 type: Postkortet
-title: Postkortet
+title: Post Danmark
 beskrivelse: "Første Hjaltelin Stahl-arbejde for Post Danmark er en stor cross media kampagne, der revitaliserer postkortet som medie og Post Danmark som brand. Det handler om postens nye app POSTKORTET, der gør det nemt at tage billeder med mobilen hvor som helst i verden og sende dem som A5-postkort til familie og venner for bare 19 kr. Kampagnen henvender sig til danskere hjemme i stuen, ved Metro-stationer, i Københavns Lufthavn, på Hovedbanegården, på campingpladser og online."
 billede_1: /images/uploads/post-danmark-app-postkortet/postkort-case-01.jpg
 billede_1_link: "http://youtu.be/XHcfZYlNHOM"
