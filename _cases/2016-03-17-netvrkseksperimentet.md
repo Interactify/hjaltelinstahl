@@ -2,7 +2,7 @@
 thumbnail: /images/uploads/netvrkseksperimentet/skrmbillede-2016-03-17-kl.-13.36.58.png
 virksomhed: Telia
 type: Netværkseksperimentet
-title: Netværkseksperimentet
+title: Telia
 beskrivelse: "Hvordan gør man danskerne opmærksomme på, at Telia leverer rigtig god netværksdækning, der er helt afgørende for at komme igennem hverdagen anno 2016? Vi valgte at udsætte Anders Breinholt for 24 timer uden netværk for at dokumentere, hvilke udfordringer den manglende dækning medførte i en række helt almindelige hverdagssituationer. Det blev til en 13 minutter lang film, som udelukkende blev lanceret på Telias owned media, Youtube og Facebook, og dermed helt uden brug af betalte medier. \n\n"
 billede_1: /images/uploads/netvrkseksperimentet/skrmbillede-2016-03-17-kl.-13.35.53.png
 billede_1_link: "https://www.youtube.com/watch?v=8FLnTJid_I0"
