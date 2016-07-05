@@ -2,7 +2,7 @@
 thumbnail: /images/uploads/street-testen/thumbnail.png
 virksomhed: Synoptik
 type: Street Testen
-title: Street Testen
+title: Synoptik
 beskrivelse: "Ny teknologi gjorde det muligt at overføre den succesfulde online synstest til Synoptiks butiksvinduer, hvor kunderne døgnet rundt kunne få tjekket deres syn og bestille en gratis synsprøve. Den interaktive street test formåede effektivt at skabe stopeffekt og trække kunder ind i butikkerne. \n\n"
 billede_1: /images/uploads/street-testen/skrmbillede-2016-03-17-kl.-13.26.52.png
 billede_1_link: "https://www.youtube.com/watch?v=9H_9Kmg0-UU"
