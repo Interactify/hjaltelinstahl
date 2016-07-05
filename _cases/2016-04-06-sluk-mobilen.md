@@ -2,7 +2,7 @@
 thumbnail: /images/uploads/skrmbillede-2016-03-17-kl.-13.50.46.png
 virksomhed: Telia
 type: Sluk Mobilen
-title: Sluk Mobilen
+title: Telia
 beskrivelse: "Med Telias ’sluk mobilen’ biospots fik vi sat fokus på, at livet krævet et godt netværk – MEN at der skal være tid og plads til ro og fordybelse. F.eks. er det god stil at være offline, når du går i biografen. "
 billede_1: /images/uploads/sluk-mobilen/skrmbillede-2016-04-06-kl.-12.59.21.png
 billede_1_link: "https://www.youtube.com/watch?v=70Ip8aR-gQM"
