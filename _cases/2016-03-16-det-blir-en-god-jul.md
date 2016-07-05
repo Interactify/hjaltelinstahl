@@ -2,7 +2,7 @@
 thumbnail: /images/uploads/thumbnail_kvickly.png
 virksomhed: Kvickly
 type: "Det blir' en god jul"
-title: "Det blir' en god jul"
+title: Kvickly
 beskrivelse: "Ligeså stærke som danskernes juletraditioner er, lige så mange fortolkninger af dem findes der. For hvad er det egentlig, vi foretrækker at sætte på bordet den 24. december? And eller flæskesteg, rødkål eller hvidkål, brunede kartofler fra glas eller de selvpillede? Julen er fuld af vigtige valg! Med kampagnen ”Det bli’r en god jul” aktiverede vi danskerne på tværs af medier i en dialog omkring smagspræferencer og julens vigtige valg. Vi inviterede bl.a. til smagsprøver i butik, så man kunne smage, inden man valgte. Vi inviterede til afstemning på kvickly.dk og Facebook, så man kunne stemme på sine julefavoritter. Og vi inviterede til smil med tv-spots, som virkeligt viste de mange vigtige valg, man står over for i julen… "
 billede_1: /images/uploads/det-blir-en-god-jul/skrmbillede-2016-03-16-kl.-15.59.57.png
 billede_1_link: "https://www.youtube.com/watch?v=tDK5uAvGQdM"
