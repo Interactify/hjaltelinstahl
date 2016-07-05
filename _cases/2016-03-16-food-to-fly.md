@@ -2,7 +2,7 @@
 thumbnail: /images/uploads/food-to-fly/thumbnail_foodtofly.png
 virksomhed: Københavns Lufhavne
 type: Food to Fly
-title: Food to Fly
+title: Københavns Lufhavne
 beskrivelse: "Sammen med Københavns Lufthavne har vi taget flymad til nye højder. For nu kan du få velsmagende kvalitetsmad, fra lufthavnens mange spisesteder, med om bord på flyet. Vi kalder det Food to Fly. For at tiltrække de rejsendes og pressens opmærksomhed, afholdt vi et food truck event, hvor TV-kokken, Gorm, serverede velsmagende flyoptimerede retter – lige til at tage med om bord. Kort sagt: Take away til take off. Samarbejder med madbloggere og brug af hashtagget #foodtofly, samt en onlinefilm om eventen, spredte budskabet om Food to Fly og gav konceptet luft under vingerne.\n\n"
 billede_1: /images/uploads/food-to-fly/skrmbillede-2016-03-16-kl.-16.31.23.png
 billede_1_link: "https://www.youtube.com/watch?v=wXELKsrcqAU"
