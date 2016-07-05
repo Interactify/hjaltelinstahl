@@ -2,7 +2,7 @@
 thumbnail: /images/uploads/vr-god-ved-dig-selv/skrmbillede-2016-03-16-kl.-15.54.30.png
 virksomhed: Cheasy
 type: Vær god ved dig selv
-title: Vær god ved dig selv
+title: Cheasy
 beskrivelse: "Cheasy står for at man skal være god ved sig selv. Sit hele selv. Naturligvis skal man spise sundt, træne sine mavemuskler, og cykle så meget som muligt. Og heldigvis passer Cheasy ind i en sund livsstil.\nMen man skal også huske at være go’ ved den del af sig selv, som skriger på det, der smager lidt syndigt. Den del, der mener, at kalorier bare er små skabninger, der bor inde i ens skab, og syr ens tøj lidt strammere om natten. Eller den del, der siger at is er fundamentet i madpyramiden. Cheasy har lavt fedtindhold og ingen tilsat sukker, men smager til gengæld af #CheatDay. Så heldigvis er der hjælp at hente, når du skal være god ved dig selv. \n\n"
 billede_1: /images/uploads/skrmbillede-2016-03-16-kl.-16.40.36.png
 billede_1_link: "https://www.youtube.com/watch?v=JMEUoBq9B5k&list=PL_gHF9vtwkV6npRpeipHaFwcFgOlJ_yFs&index=4"
