@@ -2,7 +2,7 @@
 thumbnail: /images/uploads/thumbnail_degule.png
 virksomhed: Orifarm
 type: "Vi gir' dig råd"
-title: "Vi gir' dig råd"
+title: Orifarm
 beskrivelse: "Alle skal have råd til at have det godt. Men god medicin til en god pris gør det ikke alene. Ordentlig rådgivning er lige så vigtig, for at forbrugeren kan føle sig tryg – og godt behandlet. Med udgangspunkt i denne indsigt har vi sammen med Orifarm udviklet kommunikationskonceptet ”Vi gir' dig råd”, som på tværs af medier fortæller historien om, at apotekerne og Orifarm i fællesskab giver råd til god medicin såvel som råd til at forebygge og lindre gener i hverdagen. \n\n"
 billede_1: /images/uploads/vi-gir-dig-rd/skrmbillede-2016-03-18-kl.-14.21.53.png
 billede_1_link: "https://www.youtube.com/watch?v=R27dZQOc9MM"
