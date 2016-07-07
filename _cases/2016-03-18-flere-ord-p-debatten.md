@@ -1,8 +1,8 @@
 ---
 thumbnail: /images/uploads/valgkamp-2015/skrmbillede-2016-03-18-kl.-13.55.14.png
-virksomhed: Venstre
-type: Flere ord på debatten
-title: Venstre
+virksomhed: Flere ord på debatten
+type: Venstre
+title: Flere ord på debatten
 beskrivelse: "De store TV-debatter under valgkampene trækker høje seertal og kan have afgørende betydning for valgresultatet. Det handler om at få mest taletid og trænge bedst igennem med sine pointer. Og aller helst skal man have det sidste ord! Vi tog udgangspunkt i den indsigt, at 87% af danskerne ‘seconscreener’, mens de ser TV og udviklede et helt unikt live debat-modul, som blev synkront eksponeret på tværs af medier i præcis det tidsrum hvor TV-debatterne kørte.\nDet gjorde det muligt for udvalgte venstre­profiler at understøtte og supplere Lars Løkke Rasmussen i den aktuelle TV- duel. \n\n"
 billede_1: /images/uploads/valgkamp-2015/skrmbillede-2016-03-18-kl.-13.48.50.png
 billede_1_link: "https://youtu.be/Obk3iheeBIA"
