@@ -1,8 +1,8 @@
 ---
 thumbnail: /images/uploads/skrmbillede-2016-07-05-kl.-14.09.57.png
-virksomhed: Post Danmark
-type: Post Danmark bliver blå
-title: Post Danmark
+virksomhed: Post Danmark bliver blå
+type: Post Danmark
+title: Post Danmark bliver blå
 beskrivelse: ""
 billede_1: /images/uploads/post-danmark/skrmbillede-2016-07-05-kl.-14.18.49.png
 billede_1_link: "https://www.youtube.com/watch?v=3dMYXBcWMzU"
