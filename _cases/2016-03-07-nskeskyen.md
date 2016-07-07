@@ -1,8 +1,8 @@
 ---
 thumbnail: /images/uploads/casethumb_onskeskyen1.jpg
-virksomhed: Post Danmark
-type: Ønskeskyen
-title: Post Danmark
+virksomhed: Ønskeskyen
+type: Post Danmark
+title: Ønskeskyen
 beskrivelse: "Post Danmark ønsker at gøre det nemmere at handle på nettet. Derfor har vi udviklet den digitale tjeneste Ønskeskyen, der giver dig mulighed for at gemme og dele dine ønsker. Uanset om ønsket findes på nettet eller i en fysisk butik. Ønskeskyen er en gratis tjeneste og findes som app til mobil og tablet – og som Ønskeskyen.dk på computeren. Inden for de første 14 dage har Ønskeskyen ligget nr. 7 i App Store."
 billede_1: /images/uploads/nskeskyen/onskeskyen-case-01.jpg
 billede_1_link: "https://www.youtube.com/watch?v=-rMSrCnO9NY"
