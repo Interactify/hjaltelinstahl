@@ -1,8 +1,8 @@
 ---
 thumbnail: /images/uploads/plads-til-livet/skrmbillede-2016-04-13-kl.-16.46.33.png
-virksomhed: IKEA
-type: Plads til Livet
-title: IKEA
+virksomhed: Plads til Livet
+type: IKEA
+title: Plads til Livet
 beskrivelse: "Vores nye kommunikationsplatform for IKEA handler om livet. Ikke det fejlfrie, men det ægte. Det liv, der leves i al sin perfekte uperfekthed. Der hvor opvasken ikke altid er taget, og hvor det godt kan rode lidt en gang imellem. For med IKEA er der plads til flere, plads til forandring, plads til stort og småt. Og plads til livet. "
 billede_1: /images/uploads/plads-til-livet/skrmbillede-2016-04-13-kl.-15.58.18.png
 billede_1_link: "https://www.youtube.com/watch?v=qAvrj1n4IEI"
