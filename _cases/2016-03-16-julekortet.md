@@ -1,8 +1,8 @@
 ---
 thumbnail: /images/uploads/julekortet/thumbnail_julekortet.png
-virksomhed: Post Danmark
-type: Julekortet
-title: Post Danmark
+virksomhed: Julekortet
+type: Post Danmark
+title: Julekortet
 beskrivelse: "Mange unge danskere har aldrig hverken sendt eller modtagetet et julekort. Og med god grund – de har både email og et hav af sociale medier til rådighed. Ikke desto mindre sætter netop de unge størst pris på at modtage et brev eller julekort. De er bare aldrig blevet ordentligt introduceret til julekortets magiske verden – og til hvor rart det er at modtage en varm julehilsen fra en man holder af. Derfor lavede vi en serie webisodes til dem om netop det: Julekortet.\n\n"
 billede_1: /images/uploads/julekortet/skrmbillede-2016-03-16-kl.-17.13.29.png
 billede_1_link: "https://www.youtube.com/watch?v=TOVpw3S-awE"
