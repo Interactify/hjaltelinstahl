@@ -156,18 +156,16 @@ collections:
     sort: "position:asc"
     fields:
       - {label: "Titel", name: "title", widget: "string", tagname: "h2", class: "post-title"}
-      - {label: "banner", name: "banner", widget: "image", tagname: "div", class: "media-img optional cms-thumbnail hjaltelin-ref-logo", folder: "img/posts/thumbnails"}
+      - {label: "banner", name: "banner", widget: "image", tagname: "div", class: "media-img optional cms-thumbnail", folder: "img/posts/thumbnails"}
       - {label: "Tekst", name: "tekst", widget: "markdown", tagname: "div", class: "post-bd", optional: true}
-      - {label: "Sektion 1 billede", name: "sektion1pic", widget: "markdown", tagname: "div", class: "post-bd", optional: true}
+      - {label: "Sektion 1 billede", name: "sektion1pic", widget: "image", tagname: "div", class: "media-img optional cms-thumbnail", folder: "img/posts/undersider"}
       - {label: "Sektion 1 tekst", name: "sektion1tekst", widget: "markdown", tagname: "div", class: "post-bd", optional: true}
-      - {label: "Sektion 2 billede", name: "sektion2pic", widget: "markdown", tagname: "div", class: "post-bd", optional: true}
+      - {label: "Sektion 2 billede", name: "sektion2pic", widget: "image", tagname: "div", class: "media-img optional cms-thumbnail", folder: "img/posts/undersider"}
       - {label: "Sektion 2 tekst", name: "sektion2tekst", widget: "markdown", tagname: "div", class: "post-bd", optional: true}
-      - {label: "Sektion 3 billede", name: "sektion3pic", widget: "markdown", tagname: "div", class: "post-bd", optional: true}
+      - {label: "Sektion 2 billede", name: "sektion3pic", widget: "image", tagname: "div", class: "media-img optional cms-thumbnail", folder: "img/posts/undersider"}
       - {label: "Sektion 3 tekst", name: "sektion3tekst", widget: "markdown", tagname: "div", class: "post-bd", optional: true}
-      - {label: "Sektion 4 billede", name: "sektion4pic", widget: "markdown", tagname: "div", class: "post-bd", optional: true}
+      - {label: "Sektion 2 billede", name: "sektion4pic", widget: "image", tagname: "div", class: "media-img optional cms-thumbnail", folder: "img/posts/undersider"}
       - {label: "Sektion 4 tekst", name: "sektion4tekst", widget: "markdown", tagname: "div", class: "post-bd", optional: true}
-      - {label: "Sektion 5 billede", name: "sektion5pic", widget: "markdown", tagname: "div", class: "post-bd", optional: true}
+      - {label: "Sektion 2 billede", name: "sektion5pic", widget: "image", tagname: "div", class: "media-img optional cms-thumbnail", folder: "img/posts/undersider"}
       - {label: "Sektion 5 tekst", name: "sektion5tekst", widget: "markdown", tagname: "div", class: "post-bd", optional: true}
       - {label: "Tekst bund", name: "tekstbund", widget: "markdown", tagname: "div", class: "post-bd", optional: true}
-    meta:
-      - {label: "Position", name: "position", widget: "number", optional: false}
