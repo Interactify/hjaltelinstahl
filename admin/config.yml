@@ -155,8 +155,8 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     sort: "position:asc"
     fields:
+      - {label: "Banner", name: "banner", widget: "image", tagname: "div", class: "media-img optional cms-thumbnail", folder: "img/posts/undersider"}
       - {label: "Titel", name: "title", widget: "string", tagname: "h2", class: "post-title"}
-      - {label: "banner", name: "banner", widget: "image", tagname: "div", class: "media-img optional cms-thumbnail", folder: "img/posts/thumbnails"}
       - {label: "Tekst", name: "tekst", widget: "markdown", tagname: "div", class: "post-bd", optional: true}
       - {label: "Sektion 1 billede", name: "sektion1pic", widget: "image", tagname: "div", class: "media-img optional cms-thumbnail", folder: "img/posts/undersider"}
       - {label: "Sektion 1 tekst", name: "sektion1tekst", widget: "markdown", tagname: "div", class: "post-bd", optional: true}
