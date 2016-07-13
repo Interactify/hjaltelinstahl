@@ -3,8 +3,21 @@
   {% include head.html %}
   <body>
     <style>
+        section {
+            margin-bottom: 30px;
+        }
+        .twelvecol p:last-of-type {
+            margin-bottom: 25px;
+        }
+        p {
+            margin: 10px 0px 10px 0px;
+        }
         h1 {
+            font-family: 'BrandonText-Regular', Verdana, Geneva, sans-serif;
+            font-size: 20px;
             color: #E74832;
+            margin: 0px;
+            text-transform: none;
         }
         h2 {
             font-family: 'BrandonText-Regular', Verdana, Geneva, sans-serif;
@@ -26,7 +39,51 @@
         }
         .sektion-picture {
             padding-top: 30px;
+            text-align: center;
         }
+        .spacer {
+            height: 40px;
+            display: block;
+            width: 100%;
+        }
+
+        .bund {
+            padding: 40px 0px 50px 0px;
+            margin-top: 40px;
+            background-color: #e74832;
+            color: #ffffff;
+            margin-bottom: 0px;
+        }
+
+        .bund h1 {
+            color: #ffffff;
+            text-transform: uppercase;
+            white-space: normal;
+            text-align: left;
+        }
+
+        .bund h2 {
+            margin-top: 10px;
+            color: #ffffff;
+        }
+        @media only screen and (max-width: 480px) {
+            .row .threecol {
+                width: 100%;
+                margin-right: 0%;
+                margin-left: 0%;
+            }
+        }
+        @media only screen and (max-width: 767px) {
+            .row .threecol {
+                width: 100%;
+                margin-right: 0%;
+                margin-left: 0%;
+            }
+            .row .threecol img {
+                width: 80% !important;
+            }
+        }
+            
     </style>
     {% include menu_subpage.html %}
     <section>
@@ -49,6 +106,7 @@
         </div>
         {% endif %}
         {% if page.sektion1tekst %}
+        <div class="spacer"></div>
         <div class="row">
             <div class="eightcol">
                 {{ page.sektion1tekst | markdownify }}
@@ -60,6 +118,74 @@
             </div>
         </div>
         {% endif %}
+
+        {% if page.sektion2tekst %}
+        <div class="spacer"></div>
+        <div class="row">
+            <div class="threecol sektion-picture">
+                {% if page.sektion2pic %}
+                <img src="{{ page.sektion2pic }}" width="100%">
+                {% endif %}
+            </div>
+            <div class="eightcol">
+                {{ page.sektion2tekst | markdownify }}
+            </div>
+        </div>
+        {% endif %}
+
+        {% if page.sektion3tekst %}
+        <div class="spacer"></div>
+        <div class="row">
+            <div class="eightcol">
+                {{ page.sektion3tekst | markdownify }}
+            </div>
+            <div class="threecol sektion-picture">
+                {% if page.sektion3pic %}
+                <img src="{{ page.sektion3pic }}" width="100%">
+                {% endif %}
+            </div>
+        </div>
+        {% endif %}
+
+
+        {% if page.sektion4tekst %}
+        <div class="spacer"></div>
+        <div class="row">
+            <div class="threecol sektion-picture">
+                {% if page.sektion4pic %}
+                <img src="{{ page.sektion4pic }}" width="100%">
+                {% endif %}
+            </div>
+            <div class="eightcol">
+                {{ page.sektion4tekst | markdownify }}
+            </div>
+        </div>
+        {% endif %}
+
+        {% if page.sektion5tekst %}
+        <div class="spacer"></div>
+        <div class="row">
+            <div class="eightcol">
+                {{ page.sektion5tekst | markdownify }}
+            </div>
+            <div class="threecol sektion-picture">
+                {% if page.sektion5pic %}
+                <img src="{{ page.sektion5pic }}" width="100%">
+                {% endif %}
+            </div>
+        </div>
+        {% endif %}
     </div>
+    {% if page.tekstbund %}
+    <section class="bund">
+        <div class="container">
+            <div class="row">
+                <div class="twelvecol">
+                    {{ page.tekstbund | markdownify }}
+                </div>
+            </div>
+        </div>
+    </section>
+    {% endif %}
   </body>
 </html>
