@@ -1,109 +1,65 @@
 <!DOCTYPE html>
 <html>
-
   {% include head.html %}
-  <style>
-    body {
-    font-family: 'BrandonText-Regular', Verdana, Geneva, sans-serif;
-    font-size: 15px;
-    height: 100%;
-    color: #311c0f;
-    overflow-x: hidden;
-    }
-    .stregcenter {
-    display: inline-block;
-    position: relative;
-    top: 0.6em;
-    padding: 0 0.5em;
-    }
-    h1{
-    font-family: 'BrandonText-Black';
-    text-align: center;
-    color:#fff;
-    width: 100%;
-    }
-    .headerline {
-    margin-bottom: 0;
-    }
-    .socialcontent{
-    padding-bottom:30px;
-    color:#fff;
-    }
-    .socialcontent p, li{
-    color: #fff;
-    }
-    .socialcontent p{
-    margin-bottom: 20px;
-    }
-    .socialcontent ul{
-    margin: 20px;
-    }
-    .socialcontent ul li{
-    list-style: disc;
-    }
-    .socialcontent .row .sixcol {
-    margin-top: 20px;
-    }
-    .socialcontent {
-    font-size: 120%;
-    }
-    .center-news {
-        max-width: 800px;
-        text-align: center;
-        margin: auto;
-    }
-  </style>
-  <body style="background-color: #f04e29">
-
+  <body>
+    <style>
+        h1 {
+            color: #E74832;
+        }
+        h2 {
+            font-family: 'BrandonText-Regular', Verdana, Geneva, sans-serif;
+            color: #000000;
+            font-size: 14px;
+            font-weight: normal;
+            line-height: 18px;
+            margin-bottom: 10px;
+        }
+        h2 em {
+            border-radius: 50%;
+            padding: 4px 8px;
+            background-color: #000000;
+            font-size: 9px;
+            color: #ffffff;
+            font-style: normal;
+            top: -2px;
+            position: relative;
+        }
+        .sektion-picture {
+            padding-top: 30px;
+        }
+    </style>
     {% include menu_subpage.html %}
-    
     <section>
         <div class="container headerline" style="margin-top:100px;margin-bottom:30px;">
             <div class="row">
                 <div class="twelvecol">
-                {% if page.newpageimage %}
-                    <img src="{{ page.newpageimage }}" alt="{{ page.title }}" width="100%">
-                {% endif %}
-                <h1>
-                    <span class="stregleft">&nbsp;</span>
-                    <span class="stregcenter">{{ page.title }}</span> 
-                    <span class="stregright">&nbsp;</span>
-                </h1>
+                    {% if page.banner %}
+                    <img src="{{ page.banner }}" alt="{{ page.title }}" width="100%">
+                    {% endif %}
                 </div>
             </div>
         </div>
     </section>
-
-    <section>
-    <div class="container socialcontent">
+    <div class="container">
+        {% if page.tekst %}
         <div class="row">
-           <div class="twelvecol">
-               <div class="center-news">
-                   {% if page.newpage %}
-                    {{ page.newpage | markdownify }}
-                   {% endif %}
-               </div>
-           </div>
-<!--           
-            <div align="left" class="sixcol last">
-                <div>
-                <div class="gridet">
-                  <div class="col-1">
-                     <div>
-                        <p>
-                            Har du spørgsmål til stillingen, så ring til Trine Petersen på 60107763.
-Send os din ansøgning på <a href="mailto:tp@hjaltelinstahl.com">tp@hjaltelinstahl.com</a>
-Har du ikke hørt fra os inden d. 16/2 er stillingen besat til anden side. 
-                        </p>
-                    </div>
-                  </div>
-                </div>
+            <div class="twelvecol">
+                {{ page.tekst | markdownify }}
             </div>
-        </div>-->
+        </div>
+        {% endif %}
+        {% if page.sektion1tekst %}
+        <div class="row">
+            <div class="eightcol">
+                {{ page.sektion1tekst | markdownify }}
+            </div>
+            <div class="threecol sektion-picture">
+                {% if page.sektion1pic %}
+                <img src="{{ page.sektion1pic }}" width="100%">
+                {% endif %}
+            </div>
+        </div>
+        {% endif %}
     </div>
-</div>
-</section>
-
   </body>
-
 </html>

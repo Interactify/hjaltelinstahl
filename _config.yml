@@ -41,10 +41,10 @@ defaults:
     values:
       layout: "news"
   - scope:
-      path: "/page/"
+      path: ""
       type: "undersider"
     values:
-      layout: "underside"
+      layout: "undersider"
       
 
 # Build settings
