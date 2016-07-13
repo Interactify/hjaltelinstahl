@@ -29,6 +29,9 @@ collections:
     output: true
   social:
     output: false
+  undersider:
+    output: true
+    permalink: /page/:title.html
 
 
 defaults:
@@ -37,6 +40,11 @@ defaults:
       type: "news"
     values:
       layout: "news"
+  - scope:
+      path: "/page/"
+      type: "undersider"
+    values:
+      layout: "underside"
       
 
 # Build settings
