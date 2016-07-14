@@ -272,6 +272,7 @@
         </div>
         {% endif %}
     </div>
+    {% if page.modal != "" %}
     <div class="container">
         <div class="row">
             <div class="twelvecol">
@@ -279,6 +280,7 @@
             </div>
         </div>
     </div>
+    {% endif %}
     {% if page.tekstbund %}
     <section class="bund">
         <div class="container">
@@ -290,7 +292,7 @@
         </div>
     </section>
     {% endif %}
-    {% if page.modal %}
+    {% if page.modal != "" %}
     <div id="hsModal" class="modal">
         <!-- Modal content -->
         <div class="modal-content">
