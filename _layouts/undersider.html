@@ -162,11 +162,21 @@
             top: -32px;
         }
 
+        .visible-xs {
+            display: none;
+        }
+
         @media only screen and (max-width: 480px) {
             .row .threecol {
                 width: 100%;
                 margin-right: 0%;
                 margin-left: 0%;
+            }
+            .hidden-xs {
+                display: none;
+            }
+            .visible-xs {
+                display: block;
             }
         }
         @media only screen and (max-width: 767px) {
@@ -204,10 +214,15 @@
         {% if page.sektion1tekst %}
         <div class="spacer"></div>
         <div class="row">
+            <div class="threecol sektion-picture visible-xs">
+                {% if page.sektion1pic %}
+                <img src="{{ page.sektion1pic }}">
+                {% endif %}
+            </div>
             <div class="eightcol">
                 {{ page.sektion1tekst | markdownify }}
             </div>
-            <div class="threecol sektion-picture">
+            <div class="threecol sektion-picture hidden-xs">
                 {% if page.sektion1pic %}
                 <img src="{{ page.sektion1pic }}">
                 {% endif %}
@@ -232,10 +247,15 @@
         {% if page.sektion3tekst %}
         <div class="spacer"></div>
         <div class="row">
+            <div class="threecol sektion-picture visible-xs">
+                {% if page.sektion3pic %}
+                <img src="{{ page.sektion3pic }}">
+                {% endif %}
+            </div>
             <div class="eightcol">
                 {{ page.sektion3tekst | markdownify }}
             </div>
-            <div class="threecol sektion-picture">
+            <div class="threecol sektion-picture hidden-xs">
                 {% if page.sektion3pic %}
                 <img src="{{ page.sektion3pic }}">
                 {% endif %}
@@ -261,10 +281,15 @@
         {% if page.sektion5tekst %}
         <div class="spacer"></div>
         <div class="row">
+            <div class="threecol sektion-picture visible-xs">
+                {% if page.sektion5pic %}
+                <img src="{{ page.sektion5pic }}">
+                {% endif %}
+            </div>
             <div class="eightcol">
                 {{ page.sektion5tekst | markdownify }}
             </div>
-            <div class="threecol sektion-picture">
+            <div class="threecol sektion-picture hidden-xs">
                 {% if page.sektion5pic %}
                 <img src="{{ page.sektion5pic }}">
                 {% endif %}

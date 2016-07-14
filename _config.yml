@@ -31,7 +31,7 @@ collections:
     output: false
   undersider:
     output: true
-    permalink: /page/:title.html
+    permalink: /news/:title.html
 
 
 defaults:
