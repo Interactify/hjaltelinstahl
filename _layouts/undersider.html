@@ -127,14 +127,14 @@
             font-size: 28px;
             font-weight: bold;
             position: relative;
-            right: -35px;
+            right: -17px;
             cursor: pointer;
             -webkit-transition: all 0.8s ease-in-out;
             -moz-transition: all 1s ease-in-out;
             -o-transition: all 1s ease-in-out;
             -ms-transition: all 1s ease-in-out;
             transition: all 1s ease-in-out;
-            top: -37px;
+            top: -18px;
             background-color: #ffffff;
             border-radius: 50%;
             padding: 0px;
@@ -145,6 +145,7 @@
             width: 30px;
             text-align: center;
             border: 1px solid #333;
+            z-index: 100;
         }
 
         .close:hover,
@@ -153,6 +154,14 @@
             text-decoration: none;
             cursor: pointer;
         }
+
+        iframe {
+            height: 100%;
+            width: 100%;
+            position: relative;
+            top: -32px;
+        }
+
         @media only screen and (max-width: 480px) {
             .row .threecol {
                 width: 100%;
