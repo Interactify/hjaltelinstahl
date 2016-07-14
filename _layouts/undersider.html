@@ -9,6 +9,9 @@
         .twelvecol p:last-of-type {
             margin-bottom: 25px;
         }
+        .row .threecol img {
+            width: 100%;
+        }
         p {
             margin: 10px 0px 10px 0px;
         }
@@ -18,6 +21,8 @@
             color: #E74832;
             margin: 0px;
             text-transform: none;
+            white-space: normal;
+            text-align: left;
         }
         h2 {
             font-family: 'BrandonText-Regular', Verdana, Geneva, sans-serif;
@@ -66,6 +71,88 @@
             margin-top: 10px;
             color: #ffffff;
         }
+
+        .btn-modal {
+            background-color: #000000;
+            color: #ffffff;
+            padding: 7px 20px;
+            border-radius: 10px;
+            display: inline-block;
+            text-decoration: none;
+            border-width: 0px;
+            border-style: none;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .btn-modal:focus {
+            background-color: #000000;
+            color: #ffffff;
+            padding: 7px 20px;
+            border-radius: 10px;
+            display: inline-block;
+            text-decoration: none;
+            border-width: 0px;
+            border-style: none;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        /* The Modal (background) */
+        .modal {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 1; /* Sit on top */
+            left: 0;
+            top: 0;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgb(0,0,0); /* Fallback color */
+            background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+        }
+
+        /* Modal Content/Box */
+        .modal-content {
+            background-color: #fefefe;
+            margin: 120px auto 0px auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+            height: 70%;
+        }
+
+        /* The Close Button */
+        .close {
+            color: #333;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            position: relative;
+            right: -35px;
+            cursor: pointer;
+            -webkit-transition: all 0.8s ease-in-out;
+            -moz-transition: all 1s ease-in-out;
+            -o-transition: all 1s ease-in-out;
+            -ms-transition: all 1s ease-in-out;
+            transition: all 1s ease-in-out;
+            top: -37px;
+            background-color: #ffffff;
+            border-radius: 50%;
+            padding: 0px;
+            display: inline-block;
+            line-height: 25px;
+            margin: 0px;
+            height: 30px;
+            width: 30px;
+            text-align: center;
+            border: 1px solid #333;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
         @media only screen and (max-width: 480px) {
             .row .threecol {
                 width: 100%;
@@ -80,7 +167,7 @@
                 margin-left: 0%;
             }
             .row .threecol img {
-                width: 80% !important;
+                width: 50% !important;
             }
         }
             
@@ -113,7 +200,7 @@
             </div>
             <div class="threecol sektion-picture">
                 {% if page.sektion1pic %}
-                <img src="{{ page.sektion1pic }}" width="100%">
+                <img src="{{ page.sektion1pic }}">
                 {% endif %}
             </div>
         </div>
@@ -124,7 +211,7 @@
         <div class="row">
             <div class="threecol sektion-picture">
                 {% if page.sektion2pic %}
-                <img src="{{ page.sektion2pic }}" width="100%">
+                <img src="{{ page.sektion2pic }}">
                 {% endif %}
             </div>
             <div class="eightcol">
@@ -141,7 +228,7 @@
             </div>
             <div class="threecol sektion-picture">
                 {% if page.sektion3pic %}
-                <img src="{{ page.sektion3pic }}" width="100%">
+                <img src="{{ page.sektion3pic }}">
                 {% endif %}
             </div>
         </div>
@@ -153,7 +240,7 @@
         <div class="row">
             <div class="threecol sektion-picture">
                 {% if page.sektion4pic %}
-                <img src="{{ page.sektion4pic }}" width="100%">
+                <img src="{{ page.sektion4pic }}">
                 {% endif %}
             </div>
             <div class="eightcol">
@@ -170,11 +257,18 @@
             </div>
             <div class="threecol sektion-picture">
                 {% if page.sektion5pic %}
-                <img src="{{ page.sektion5pic }}" width="100%">
+                <img src="{{ page.sektion5pic }}">
                 {% endif %}
             </div>
         </div>
         {% endif %}
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="twelvecol">
+                <button id="triggerModal" class="btn-modal">Skriv dig op her</button>
+            </div>
+        </div>
     </div>
     {% if page.tekstbund %}
     <section class="bund">
@@ -186,6 +280,42 @@
             </div>
         </div>
     </section>
+    {% endif %}
+    {% if page.modal %}
+    <div id="hsModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">x</span>
+            <iframe src="{{ page.modal }}" frameborder="0" width="100%" height="100%"></iframe>
+        </div>
+    </div>
+    <script>
+        // Get the modal
+        var modal = document.getElementById('hsModal');
+
+        // Get the button that opens the modal
+        var btn = document.getElementById("triggerModal");
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks on the button, open the modal 
+        btn.onclick = function() {
+            modal.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
     {% endif %}
   </body>
 </html>
