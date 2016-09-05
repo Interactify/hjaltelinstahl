@@ -1,7 +1,7 @@
 ---
-title: "IKEA: PLADS TIL LIVET ERSTATTER KVALITETSTESTET AF HVERDAGEN"
-text: "Men de to koncepter kan ikke sammenlignes. Kvalitetstestet af hverdagen var en tv-kampagne. Plads til livet er en strategisk platform, som vil få mere holdning og kant over tid \n"
-link: "http://www.bureaubiz.dk/Nyheder/Artikler/2016/Uge-14/Ikea-Plads-til-livet-erstatter-Kvalitetstestet-af-hverdagen"
+title: "Hjaltelin: God kommunikation er blevet en holdsport"
+text: "Glem ideen om, at den gode kommunikation skabes af et enkelt kreativt team. Hos Hjaltelin Stahl er det evnen til at sammensætte tværgående teams, som skal skabe succes'erne."
+link: "http://www.bureaubiz.dk/Nyheder/Artikler/2016/Uge-36/Hjaltelin-God-kommunikation-er-blevet-en-holdsport"
 newpageimage: null
 newpage: null
 cmsUserSlug: ""
