@@ -1,5 +1,5 @@
 ---
-title: ECHO Awards
+title: ÅRETS TRENDANALYSE
 billede_1: /images/uploads/echo-awards/top_nyheder_1650x800_hs2016_img.png
 billede_2: /images/uploads/echo-awards/top_nyheder_1650x800_hs2016_txt.png
 slidelink: "http://www.bureaubiz.dk/Nyheder/Artikler/2016/Uge-36/Hjaltelin-God-kommunikation-er-blevet-en-holdsport"
