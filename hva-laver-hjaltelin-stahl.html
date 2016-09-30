@@ -52,6 +52,15 @@
         }());
         --></script>
         <style>
+            .iframe {
+                height: 515px;
+            }
+            .hstext {
+                padding-left: 20px;
+            }
+            .iframe-container {
+                margin-top: 20px;
+            }
             span.kilde {
                 font-size: 12px;
                 font-family: 'BrandonText-Normal', Verdana, Geneva, sans-serif;
@@ -129,6 +138,12 @@
             }
             
             @media (min-device-width : 320px) and (max-device-width : 568px) { 
+                .iframe {
+                    height: 150px;
+                }
+                .hstext {
+                    padding-left: 0px;
+                }
                 .colno1 {
                     width: 100% !important;
                     padding-bottom: 10px;
@@ -169,6 +184,12 @@
                 }
             }
             @media (min-device-width : 375px) and (max-device-width : 667px) { 
+                .iframe {
+                    height: 170px;
+                }
+                .hstext {
+                    padding-left: 0px;
+                }
                 .no1 {
                     width: 90% !important;
                     padding: 0px 0px 20px 5px;
@@ -285,7 +306,8 @@
         <div class="container headerline" style="margin-top:80px;margin-bottom:30px;">
             <div class="row">
                 <div class="twelvecol">
-                    <img src="images/hva-laver.jpg" alt="hvad laver hjaltelin stahl" width="100%">
+                    <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/7Km-Z8oR0VU?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>-->
+                    <div class="iframe-container"><iframe class='iframe' width="100%" src="https://www.youtube.com/embed/7Km-Z8oR0VU?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
                 </div>
             </div>
             <div class="row">
@@ -301,7 +323,7 @@
                     </div>
                     <span class="kilde">Kilde kommer her</span>
                 </div>
-                <div class="eightcol">
+                <div class="eightcol hstext">
                     Hos Hjaltelin Stahl omsætter vi tidens ualmindelig mange buzzwords til konkrete, håndfaste og kreative strategier, der flytter holdninger og skaber resultater. Vi er eksperter i forbrugeradfærd og new media i en verden, hvor forbrugerne ikke følger en lineær købsadfærd, men gennemgår i stedet en semikaotisk købsproces. Hvor de møder dit og dine konkurrenters brand i mange forskellige connection points. Online såvel som offline.
                     <br/><br/>
                     <div class="cta-container">
