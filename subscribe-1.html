@@ -73,13 +73,13 @@ form, .newsletterspinder, #newsletter{background-color:transparent;height:300px;
     }
 }
 </style>
-
+<script type="text/javascript" src="https://track.adform.net/serving/scripts/trackpoint/"></script>
 </head>
 <body>
     <form method="POST" action="http://pages.exacttarget.com/page.aspx?QS=330c754b5e92df745067d5fde61d0f7f9626f166020108201ae762e0410bf3ea">
         <div class="kontakt">
             <input type="hidden" name="__successPage" id="__successPage" value="http://hjaltelinstahl.com/subscribe-success-1.html" />
-            <input type="hidden" name="__errorPage" id="__errorPage" value="http://hjaltelinstahl.com/subscribe-error.html" />
+            <input type="hidden" name="__errorPage" id="__errorPage" value="http://hjaltelinstahl.com/subscribe-1.html" />
             <input type="hidden" name="__contextName" id="__contextName" value="FormPost" />
             <input type="hidden" name="__executionContext" id="__executionContext" value="Post" />
             <input type="text" class="input-kontakt" name="Email Address" placeholder="INDTAST DIN E-MAIL HER">
@@ -99,6 +99,7 @@ form, .newsletterspinder, #newsletter{background-color:transparent;height:300px;
     <script type="text/javascript">
         jQuery(document).ready(function($) {
             $('.button').click(function(){
+                javascript:adf.ClickTrack(this,696071,'Email signup',{});
                 $('#newsletter').fadeOut(500);
             });
             $('.success').slideDown(500);
