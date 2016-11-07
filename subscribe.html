@@ -16,13 +16,13 @@ body{
 }
 form, .newsletterspinder, #newsletter{background-color:transparent;height:300px;}
 </style>
-
+<script type="text/javascript" src="https://track.adform.net/serving/scripts/trackpoint/"></script>
 </head>
 <body>
     <div class="newsletterspinder">
         <div id="newsletter">
             <p>Tilmeld dig vores nyhedsbrev</p>
-            <form method="POST" action="http://pages.exacttarget.com/page.aspx?QS=330c754b5e92df745067d5fde61d0f7f9626f166020108201ae762e0410bf3ea">
+            <form id="newslettersubmit" method="POST" action="http://pages.exacttarget.com/page.aspx?QS=330c754b5e92df745067d5fde61d0f7f9626f166020108201ae762e0410bf3ea">
                 <input type="text" size="75" class="emailadress" id="Email Address" name="Email Address" onFocus="if(this.value=='Indtast din e-mail her')this.value='';" value="Indtast din e-mail her" onBlur="if(this.value=='')this.value='Indtast din e-mail her';" maxlength="100" />
                 <input type="submit" value="Afmeld" class="button" />
                 <input type="hidden" name="__successPage" id="__successPage" value="http://hjaltelinstahl.com/subscribe-success.html" />
@@ -41,6 +41,12 @@ form, .newsletterspinder, #newsletter{background-color:transparent;height:300px;
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script type="text/javascript">
         jQuery(document).ready(function($) {
+            $('#newsletter').on('submit', function(e){
+                e.preventDefault();
+                adf.ClickTrack(this,696071,'Email signup',{});
+                $('newslettersubmit').submit();
+            });
+
             $('.button').click(function(){
                 $('#newsletter').fadeOut(500);
             });
