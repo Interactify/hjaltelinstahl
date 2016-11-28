@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width">
+<title>Tilmeld</title>
+<link rel="stylesheet" href="css/main.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="lauritzz/css/1140.css" type="text/css" media="screen">
+<link rel="stylesheet" href="checkbox.css" type="text/css" media="screen">
+<style type="text/css">
+html{
+    height:300px;
+    background-color:transparent;
+    margin: 0px;
+}
+body{
+    height:300px;
+    background-color:transparent;
+    margin: 0px;
+}
+form, .newsletterspinder, #newsletter{background-color:transparent;height:300px;}
+.kontakt {
+    width: 70%;
+    display: inline-block;
+    float: left;
+}
+.tilmeld {
+    float: left;
+    width: 20%;
+    padding-left: 20px;
+}
+.tilmeld-btn {
+    font-family: 'BrandonText-Black', Verdana, Geneva, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    display: inline-block;
+    text-align: center;
+    padding: 8px 40px 8px 40px;
+    text-decoration: none;
+    font-size: 12px;
+    border: none;
+}
+.checkdiv {
+    padding-top: 15px;
+    font-family: 'BrandonText-Black', Verdana, Geneva, sans-serif;
+    font-size: 12px;
+}
+.checkdiv label {
+    padding-top: 2px;
+}
+.input-kontakt {
+    background-color: #e2e2e2;
+    border: none;
+    width: 100%;
+    height: 31px;
+    padding-left: 12px;
+}
+.checkdiv {
+    clear: both;
+}
+.tilmeld-tekst {
+    color: #8a8a8a;
+    font-family: arial;
+    padding-top: 15px;
+    font-size: 12px;
+}
+
+@media (min-device-width : 320px) and (max-device-width : 568px) { 
+    .kontakt {
+        width: 100%;
+    }
+    .tilmeld {
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 2px;
+        margin-top: 8px;
+    }
+    .tilmeld-btn {
+        padding: 8px 0px 8px 0px;
+        width: 100%;
+    }
+    .input-kontakt {
+        padding-left: 13px;
+    }
+    .checkdiv label {
+        display: block;
+        padding-top: 0px;
+        font-size: 9px;
+    }
+}
+
+@media (min-device-width : 375px) and (max-device-width : 667px) { 
+    
+    .kontakt-formular-container .kontakt {
+        width: 95%;
+    }
+    .input-kontakt {
+        padding-left: 16px;
+    }
+}
+</style>
+<script type="text/javascript" src="https://track.adform.net/serving/scripts/trackpoint/"></script>
+</head>
+<body>
+    <form method="POST" action="http://pages.exacttarget.com/page.aspx?QS=330c754b5e92df745067d5fde61d0f7f9626f166020108201ae762e0410bf3ea">
+        <div>
+            <div class="kontakt">
+                <input type="hidden" name="__successPage" id="__successPage" value="http://hjaltelinstahl.com/subscribe-success-1.html" />
+                <input type="hidden" name="__errorPage" id="__errorPage" value="http://hjaltelinstahl.com/subscribe-1.html" />
+                <input type="hidden" name="__contextName" id="__contextName" value="FormPost" />
+                <input type="hidden" name="__executionContext" id="__executionContext" value="Post" />
+                <input type="text" class="input-kontakt" name="Email Address" placeholder="INDTAST DIN E-MAIL HER">
+            </div>
+            <div class="tilmeld">
+                <button type="submit" class="tilmeld-btn">TILMELD</button>
+            </div>
+        </div>
+        <div class="checkdiv">
+            <input type="checkbox" id="test1">
+            <label for="test1">JEG VIL SAMTIDIGT GERNE MODTAGE E-MAILS FRA HJALTELIN STAHL</label>
+        </div>
+        <div class="tilmeld-tekst">
+            Hjaltelin Stahl  må gerne kontakte mig på mail og sociale medier med inspiration og nyheder
+            samt anvende adfærdsdata.
+        </div>
+    </form>
+    
+    <script type="text/javascript" src="https://pages.exacttarget.com/Script/HttpRequest.js"></script>
+    <script type="text/javascript" src="https://pages.exacttarget.com/Script/pageTracking.js"></script>
+    <script type="text/javascript">
+        absoluteBaseUrl = "https://pages.exacttarget.com/";
+        SaveAnalyticData(56255, 'f1983809-0ceb-476a-b578-33dec50cc9dd', '6d51e49c-44aa-4662-b222-64fc1e9cb131'); 
+    </script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $('.button').click(function(){
+                adf.ClickTrack(this,696071,'Email signup',{});
+                $('#newsletter').fadeOut(500);
+            });
+            $('.success').slideDown(500);
+            $(".success").animate({
+                fontSize: "40px",
+            }, 500 );
+        });
+    </script>
+</body>
+</html>
+
