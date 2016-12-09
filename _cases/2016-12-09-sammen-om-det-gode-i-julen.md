@@ -1,5 +1,5 @@
 ---
-thumbnail: /images/uploads/smil_superbrugsen_03.jpg
+thumbnail: /images/uploads/smil.png
 virksomhed: Sammen om det gode i julen
 type: "SuperBrugsen, Kvickly & Dagli'Brugsen"
 title: Sammen om det gode i julen
@@ -25,7 +25,7 @@ billede_9_link: null
 billede_10: null
 billede_10_link: null
 cmsUserSlug: ""
-date: 2016-12-09 
+date: 2016-12-09T00:00:00.000Z
 position: null
 deactivate: null
 ---
