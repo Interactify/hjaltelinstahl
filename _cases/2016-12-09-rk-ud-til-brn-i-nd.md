@@ -1,7 +1,7 @@
 ---
 thumbnail: /images/uploads/unicef-thumbnail.png
 virksomhed: Unicef
-type: Crossmedia
+type: Unicef
 title: Ræk ud til børn i nød
 beskrivelse: "Unicef er verdens største børneorganisation. Det er der bare alt for få danskere, der ved. Faktisk ved de fleste danskere ikke engang, at Unicef hjælper børn – og det skal der laves om på. Ydermere skulle Unicef fremstå som den verdensleder de er. En leder, der hjælper børn ud af fattigdom, og viser vejen – sammen med alle dem, der hjælper ved at donere.\n\nDet blev til en film der iscenesætter budskabet om, hvor nemt det efterhånden er at række ud til børn i nød i sammenspil med key visuals der fortæller historien i sin enkle form, og bruges på tværs af platforme. Flere eksekveringer på den nye platform rulles ud i løbet af 2016 og 2017.\n\n"
 billede_1: /images/uploads/rk-ud-til-brn-i-nd/unicef-youtube.png
