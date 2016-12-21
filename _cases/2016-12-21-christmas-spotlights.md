@@ -1,5 +1,5 @@
 ---
-thumbnail: /images/uploads/christmas-spotlights/skrmbillede-2016-12-21-kl.-14.27.03.png
+thumbnail: /images/uploads/christmas-spotlights/skrmbillede-2016-12-21-kl.-14.32.56.png
 virksomhed: Christmas Spotlights
 type: Nabohjælp
 title: Christmas Spotlights
@@ -8,9 +8,9 @@ billede_1: /images/uploads/christmas-spotlights/nabohjlp_filmpost.png
 billede_1_link: "https://youtu.be/VGq6ugI1Mls"
 billede_2: /images/uploads/christmas-spotlights/skrmbillede-2016-12-21-kl.-14.24.37.png
 billede_2_link: null
-billede_3: null
+billede_3: /images/uploads/christmas-spotlights/christmas_spotlights_4186_rgb.jpg
 billede_3_link: null
-billede_4: null
+billede_4: /images/uploads/christmas-spotlights/christmas_spotlights_4185_rgb.jpg
 billede_4_link: null
 billede_5: null
 billede_5_link: null
