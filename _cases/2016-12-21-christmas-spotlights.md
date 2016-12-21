@@ -1,5 +1,5 @@
 ---
-thumbnail: /images/uploads/christmas-spotlights/skrmbillede-2016-12-21-kl.-14.32.56.png
+thumbnail: /images/uploads/christmas-spotlights/skrmbillede-2016-12-21-kl.-14.36.22.png
 virksomhed: Christmas Spotlights
 type: Nabohjælp
 title: Christmas Spotlights
