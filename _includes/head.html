@@ -13,12 +13,11 @@
     <!--[if lt IE 9]>
         <link rel="stylesheet" href="/templates/lauritzz/css/ie.css" type="text/css" media="screen" />
     <![endif]-->
-    <script language="javascript" src="https://track.adform.net/adfscript/?bn=17164265"></script>
-    <noscript>
-    <a href="https://track.adform.net/C/?bn=17164265;C=0" target="_blank">
-    <img src="https://track.adform.net/adfserve/?bn=17164265;srctype=4;ord=[timestamp]" border="0" width="1920" height="1200" alt=""/>
-    </a>
-    </noscript>
+    <script>
+        if (screen.width >= 980) {
+            document.write('<script language="javascript" src="https://track.adform.net/adfscript/?bn=17164265" /><noscript><a href="https://track.adform.net/C/?bn=17164265;C=0" target="_blank"><img src="https://track.adform.net/adfserve/?bn=17164265;srctype=4;ord=[timestamp]" border="0" width="1920" height="1200" alt=""/></a></noscript>');
+        } 
+    </script>
     <!--<script>
         if (screen.width >= 980) {
             document.write('<script language="javascript" src="http://track.adform.net/adfscript/?bn=17164265" /><noscript><a href="http://track.adform.net/C/?bn=17164265;C=0" target="_blank"><img src="http://track.adform.net/adfserve/?bn=17164265;srctype=4;ord=[timestamp]" border="0" width="1920" height="1200" alt=""/></a></noscript>');
