@@ -1,5 +1,5 @@
 ---
-title: Hjaltelin Stahl søger praktikanter
+title: Vi søger praktikanter
 text: "Interesserer du dig for markedsføring? Brænder du for god kommunikation? Og drømmer du om en fremtid i reklamebranchen? Så er du måske en af vores nye praktikanter.\n  \n"
 link: null
 newpageimage: null
